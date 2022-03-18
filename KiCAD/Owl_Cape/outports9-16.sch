@@ -1,0 +1,850 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 4450 2100 3    50   Input ~ 0
+VIN1
+$Comp
+L power:GND #PWR?
+U 1 1 625A07B1
+P 4900 1800
+AR Path="/62433ACD/625A07B1" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A07B1" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A07B1" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 4900 1550 50  0001 C CNN
+F 1 "GND" H 4905 1627 50  0000 C CNN
+F 2 "" H 4900 1800 50  0001 C CNN
+F 3 "" H 4900 1800 50  0001 C CNN
+	1    4900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 625A07B7
+P 4450 1950
+AR Path="/62433ACD/625A07B7" Ref="F?"  Part="1" 
+AR Path="/6243DD0B/625A07B7" Ref="F?"  Part="1" 
+AR Path="/6256A6BF/625A07B7" Ref="F9"  Part="1" 
+F 0 "F9" H 4510 1996 50  0000 L CNN
+F 1 "P1" H 4510 1905 50  0000 L CNN
+F 2 "3544again:3544-2" V 4380 1950 50  0001 C CNN
+F 3 "~" H 4450 1950 50  0001 C CNN
+	1    4450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 625A07BD
+P 4250 1800
+AR Path="/62433ACD/625A07BD" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A07BD" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A07BD" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 4250 1550 50  0001 C CNN
+F 1 "GND" H 4255 1627 50  0000 C CNN
+F 2 "" H 4250 1800 50  0001 C CNN
+F 3 "" H 4250 1800 50  0001 C CNN
+	1    4250 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 625A07C3
+P 4350 1600
+AR Path="/62433ACD/625A07C3" Ref="J?"  Part="1" 
+AR Path="/6243DD0B/625A07C3" Ref="J?"  Part="1" 
+AR Path="/6256A6BF/625A07C3" Ref="J10"  Part="1" 
+F 0 "J10" V 4314 1412 50  0000 R CNN
+F 1 "G  D  V" V 4223 1412 50  0000 R CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 4350 1600 50  0001 C CNN
+F 3 "~" H 4350 1600 50  0001 C CNN
+	1    4350 1600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5100 2100 3    50   Input ~ 0
+VIN1
+$Comp
+L Device:Fuse F?
+U 1 1 625A07CA
+P 5100 1950
+AR Path="/62433ACD/625A07CA" Ref="F?"  Part="1" 
+AR Path="/6243DD0B/625A07CA" Ref="F?"  Part="1" 
+AR Path="/6256A6BF/625A07CA" Ref="F10"  Part="1" 
+F 0 "F10" H 5160 1996 50  0000 L CNN
+F 1 "P2" H 5160 1905 50  0000 L CNN
+F 2 "3544again:3544-2" V 5030 1950 50  0001 C CNN
+F 3 "~" H 5100 1950 50  0001 C CNN
+	1    5100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 625A07D0
+P 5000 1600
+AR Path="/62433ACD/625A07D0" Ref="J?"  Part="1" 
+AR Path="/6243DD0B/625A07D0" Ref="J?"  Part="1" 
+AR Path="/6256A6BF/625A07D0" Ref="J11"  Part="1" 
+F 0 "J11" V 4964 1412 50  0000 R CNN
+F 1 "G  D  V" V 4873 1412 50  0000 R CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 5000 1600 50  0001 C CNN
+F 3 "~" H 5000 1600 50  0001 C CNN
+	1    5000 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 625A07D6
+P 5550 1800
+AR Path="/62433ACD/625A07D6" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A07D6" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A07D6" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 5550 1550 50  0001 C CNN
+F 1 "GND" H 5555 1627 50  0000 C CNN
+F 2 "" H 5550 1800 50  0001 C CNN
+F 3 "" H 5550 1800 50  0001 C CNN
+	1    5550 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5750 2100 3    50   Input ~ 0
+VIN1
+$Comp
+L Device:Fuse F?
+U 1 1 625A07DD
+P 5750 1950
+AR Path="/62433ACD/625A07DD" Ref="F?"  Part="1" 
+AR Path="/6243DD0B/625A07DD" Ref="F?"  Part="1" 
+AR Path="/6256A6BF/625A07DD" Ref="F11"  Part="1" 
+F 0 "F11" H 5810 1996 50  0000 L CNN
+F 1 "P3" H 5810 1905 50  0000 L CNN
+F 2 "3544again:3544-2" V 5680 1950 50  0001 C CNN
+F 3 "~" H 5750 1950 50  0001 C CNN
+	1    5750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 625A07E3
+P 5650 1600
+AR Path="/62433ACD/625A07E3" Ref="J?"  Part="1" 
+AR Path="/6243DD0B/625A07E3" Ref="J?"  Part="1" 
+AR Path="/6256A6BF/625A07E3" Ref="J12"  Part="1" 
+F 0 "J12" V 5614 1412 50  0000 R CNN
+F 1 "G  D  V" V 5523 1412 50  0000 R CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 5650 1600 50  0001 C CNN
+F 3 "~" H 5650 1600 50  0001 C CNN
+	1    5650 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 625A07E9
+P 6250 1800
+AR Path="/62433ACD/625A07E9" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A07E9" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A07E9" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 6250 1550 50  0001 C CNN
+F 1 "GND" H 6255 1627 50  0000 C CNN
+F 2 "" H 6250 1800 50  0001 C CNN
+F 3 "" H 6250 1800 50  0001 C CNN
+	1    6250 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 6450 2100 3    50   Input ~ 0
+VIN1
+$Comp
+L Device:Fuse F?
+U 1 1 625A07F0
+P 6450 1950
+AR Path="/62433ACD/625A07F0" Ref="F?"  Part="1" 
+AR Path="/6243DD0B/625A07F0" Ref="F?"  Part="1" 
+AR Path="/6256A6BF/625A07F0" Ref="F12"  Part="1" 
+F 0 "F12" H 6510 1996 50  0000 L CNN
+F 1 "P4" H 6510 1905 50  0000 L CNN
+F 2 "3544again:3544-2" V 6380 1950 50  0001 C CNN
+F 3 "~" H 6450 1950 50  0001 C CNN
+	1    6450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 625A07F6
+P 6350 1600
+AR Path="/62433ACD/625A07F6" Ref="J?"  Part="1" 
+AR Path="/6243DD0B/625A07F6" Ref="J?"  Part="1" 
+AR Path="/6256A6BF/625A07F6" Ref="J13"  Part="1" 
+F 0 "J13" V 6314 1412 50  0000 R CNN
+F 1 "G  D  V" V 6223 1412 50  0000 R CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 6350 1600 50  0001 C CNN
+F 3 "~" H 6350 1600 50  0001 C CNN
+	1    6350 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 625A07FC
+P 6950 1800
+AR Path="/62433ACD/625A07FC" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A07FC" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A07FC" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 6950 1550 50  0001 C CNN
+F 1 "GND" H 6955 1627 50  0000 C CNN
+F 2 "" H 6950 1800 50  0001 C CNN
+F 3 "" H 6950 1800 50  0001 C CNN
+	1    6950 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 2100 3    50   Input ~ 0
+VIN1
+$Comp
+L Device:Fuse F?
+U 1 1 625A0803
+P 7150 1950
+AR Path="/62433ACD/625A0803" Ref="F?"  Part="1" 
+AR Path="/6243DD0B/625A0803" Ref="F?"  Part="1" 
+AR Path="/6256A6BF/625A0803" Ref="F13"  Part="1" 
+F 0 "F13" H 7210 1996 50  0000 L CNN
+F 1 "P5" H 7210 1905 50  0000 L CNN
+F 2 "3544again:3544-2" V 7080 1950 50  0001 C CNN
+F 3 "~" H 7150 1950 50  0001 C CNN
+	1    7150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 625A0809
+P 7050 1600
+AR Path="/62433ACD/625A0809" Ref="J?"  Part="1" 
+AR Path="/6243DD0B/625A0809" Ref="J?"  Part="1" 
+AR Path="/6256A6BF/625A0809" Ref="J14"  Part="1" 
+F 0 "J14" V 7014 1412 50  0000 R CNN
+F 1 "G  D  V" V 6923 1412 50  0000 R CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 7050 1600 50  0001 C CNN
+F 3 "~" H 7050 1600 50  0001 C CNN
+	1    7050 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 625A080F
+P 7650 1800
+AR Path="/62433ACD/625A080F" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A080F" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A080F" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 7650 1550 50  0001 C CNN
+F 1 "GND" H 7655 1627 50  0000 C CNN
+F 2 "" H 7650 1800 50  0001 C CNN
+F 3 "" H 7650 1800 50  0001 C CNN
+	1    7650 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 2100 3    50   Input ~ 0
+VIN1
+$Comp
+L Device:Fuse F?
+U 1 1 625A0816
+P 7850 1950
+AR Path="/62433ACD/625A0816" Ref="F?"  Part="1" 
+AR Path="/6243DD0B/625A0816" Ref="F?"  Part="1" 
+AR Path="/6256A6BF/625A0816" Ref="F14"  Part="1" 
+F 0 "F14" H 7910 1996 50  0000 L CNN
+F 1 "P6" H 7910 1905 50  0000 L CNN
+F 2 "3544again:3544-2" V 7780 1950 50  0001 C CNN
+F 3 "~" H 7850 1950 50  0001 C CNN
+	1    7850 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 625A081C
+P 7750 1600
+AR Path="/62433ACD/625A081C" Ref="J?"  Part="1" 
+AR Path="/6243DD0B/625A081C" Ref="J?"  Part="1" 
+AR Path="/6256A6BF/625A081C" Ref="J15"  Part="1" 
+F 0 "J15" V 7714 1412 50  0000 R CNN
+F 1 "G  D  V" V 7623 1412 50  0000 R CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 7750 1600 50  0001 C CNN
+F 3 "~" H 7750 1600 50  0001 C CNN
+	1    7750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 625A0822
+P 8400 1800
+AR Path="/62433ACD/625A0822" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A0822" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A0822" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 8400 1550 50  0001 C CNN
+F 1 "GND" H 8405 1627 50  0000 C CNN
+F 2 "" H 8400 1800 50  0001 C CNN
+F 3 "" H 8400 1800 50  0001 C CNN
+	1    8400 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 2100 3    50   Input ~ 0
+VIN1
+$Comp
+L Device:Fuse F?
+U 1 1 625A0829
+P 8600 1950
+AR Path="/62433ACD/625A0829" Ref="F?"  Part="1" 
+AR Path="/6243DD0B/625A0829" Ref="F?"  Part="1" 
+AR Path="/6256A6BF/625A0829" Ref="F15"  Part="1" 
+F 0 "F15" H 8660 1996 50  0000 L CNN
+F 1 "P7" H 8660 1905 50  0000 L CNN
+F 2 "3544again:3544-2" V 8530 1950 50  0001 C CNN
+F 3 "~" H 8600 1950 50  0001 C CNN
+	1    8600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 625A082F
+P 8500 1600
+AR Path="/62433ACD/625A082F" Ref="J?"  Part="1" 
+AR Path="/6243DD0B/625A082F" Ref="J?"  Part="1" 
+AR Path="/6256A6BF/625A082F" Ref="J16"  Part="1" 
+F 0 "J16" V 8464 1412 50  0000 R CNN
+F 1 "G  D  V" V 8373 1412 50  0000 R CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 8500 1600 50  0001 C CNN
+F 3 "~" H 8500 1600 50  0001 C CNN
+	1    8500 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 625A0835
+P 9100 1800
+AR Path="/62433ACD/625A0835" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A0835" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A0835" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 9100 1550 50  0001 C CNN
+F 1 "GND" H 9105 1627 50  0000 C CNN
+F 2 "" H 9100 1800 50  0001 C CNN
+F 3 "" H 9100 1800 50  0001 C CNN
+	1    9100 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9300 2100 3    50   Input ~ 0
+VIN1
+$Comp
+L Device:Fuse F?
+U 1 1 625A083C
+P 9300 1950
+AR Path="/62433ACD/625A083C" Ref="F?"  Part="1" 
+AR Path="/6243DD0B/625A083C" Ref="F?"  Part="1" 
+AR Path="/6256A6BF/625A083C" Ref="F16"  Part="1" 
+F 0 "F16" H 9360 1996 50  0000 L CNN
+F 1 "P8" H 9360 1905 50  0000 L CNN
+F 2 "3544again:3544-2" V 9230 1950 50  0001 C CNN
+F 3 "~" H 9300 1950 50  0001 C CNN
+	1    9300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 625A0842
+P 9200 1600
+AR Path="/62433ACD/625A0842" Ref="J?"  Part="1" 
+AR Path="/6243DD0B/625A0842" Ref="J?"  Part="1" 
+AR Path="/6256A6BF/625A0842" Ref="J17"  Part="1" 
+F 0 "J17" V 9164 1412 50  0000 R CNN
+F 1 "G  D  V" V 9073 1412 50  0000 R CNN
+F 2 "PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical_Tim" H 9200 1600 50  0001 C CNN
+F 3 "~" H 9200 1600 50  0001 C CNN
+	1    9200 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 625A0849
+P 9550 1950
+AR Path="/62433ACD/625A0849" Ref="D?"  Part="1" 
+AR Path="/6243DD0B/625A0849" Ref="D?"  Part="1" 
+AR Path="/6256A6BF/625A0849" Ref="D16"  Part="1" 
+F 0 "D16" V 9589 1832 50  0000 R CNN
+F 1 "0603" V 9498 1832 50  0000 R CNN
+F 2 "3544again:LED_0603_1608Metric" H 9550 1950 50  0001 C CNN
+F 3 "Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 9550 1950 50  0001 C CNN
+F 4 "C72043" H 9550 1950 50  0001 C CNN "Description"
+	1    9550 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 1800 9550 1800
+Connection ~ 9300 1800
+$Comp
+L power:GND #PWR?
+U 1 1 625A0851
+P 9550 2300
+AR Path="/62433ACD/625A0851" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A0851" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A0851" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 9550 2050 50  0001 C CNN
+F 1 "GND" H 9555 2127 50  0000 C CNN
+F 2 "" H 9550 2300 50  0001 C CNN
+F 3 "" H 9550 2300 50  0001 C CNN
+	1    9550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 625A0858
+P 9550 2200
+AR Path="/62433ACD/625A0858" Ref="R?"  Part="1" 
+AR Path="/6243DD0B/625A0858" Ref="R?"  Part="1" 
+AR Path="/6256A6BF/625A0858" Ref="R16"  Part="1" 
+F 0 "R16" H 9609 2246 50  0000 L CNN
+F 1 "4.7k" H 9609 2155 50  0000 L CNN
+F 2 "3544again:R_0805_2012Metric" H 9550 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 9550 2200 50  0001 C CNN
+F 4 "C17673" H 9550 2200 50  0001 C CNN "Description"
+	1    9550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 625A085F
+P 8850 1950
+AR Path="/62433ACD/625A085F" Ref="D?"  Part="1" 
+AR Path="/6243DD0B/625A085F" Ref="D?"  Part="1" 
+AR Path="/6256A6BF/625A085F" Ref="D15"  Part="1" 
+F 0 "D15" V 8889 1832 50  0000 R CNN
+F 1 "0603" V 8750 1850 50  0000 R CNN
+F 2 "3544again:LED_0603_1608Metric" H 8850 1950 50  0001 C CNN
+F 3 "Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 8850 1950 50  0001 C CNN
+F 4 "C72043" H 8850 1950 50  0001 C CNN "Description"
+	1    8850 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 1800 8850 1800
+$Comp
+L power:GND #PWR?
+U 1 1 625A0866
+P 8850 2300
+AR Path="/62433ACD/625A0866" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A0866" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A0866" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 8850 2050 50  0001 C CNN
+F 1 "GND" H 8855 2127 50  0000 C CNN
+F 2 "" H 8850 2300 50  0001 C CNN
+F 3 "" H 8850 2300 50  0001 C CNN
+	1    8850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 625A086D
+P 8850 2200
+AR Path="/62433ACD/625A086D" Ref="R?"  Part="1" 
+AR Path="/6243DD0B/625A086D" Ref="R?"  Part="1" 
+AR Path="/6256A6BF/625A086D" Ref="R15"  Part="1" 
+F 0 "R15" H 8909 2246 50  0000 L CNN
+F 1 "4.7k" H 8909 2155 50  0000 L CNN
+F 2 "3544again:R_0805_2012Metric" H 8850 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 8850 2200 50  0001 C CNN
+F 4 "C17673" H 8850 2200 50  0001 C CNN "Description"
+	1    8850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 625A0874
+P 8100 1950
+AR Path="/62433ACD/625A0874" Ref="D?"  Part="1" 
+AR Path="/6243DD0B/625A0874" Ref="D?"  Part="1" 
+AR Path="/6256A6BF/625A0874" Ref="D14"  Part="1" 
+F 0 "D14" V 8139 1832 50  0000 R CNN
+F 1 "0603" V 8000 1850 50  0000 R CNN
+F 2 "3544again:LED_0603_1608Metric" H 8100 1950 50  0001 C CNN
+F 3 "Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 8100 1950 50  0001 C CNN
+F 4 "C72043" H 8100 1950 50  0001 C CNN "Description"
+	1    8100 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7850 1800 8100 1800
+$Comp
+L power:GND #PWR?
+U 1 1 625A087B
+P 8100 2300
+AR Path="/62433ACD/625A087B" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A087B" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A087B" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 8100 2050 50  0001 C CNN
+F 1 "GND" H 8105 2127 50  0000 C CNN
+F 2 "" H 8100 2300 50  0001 C CNN
+F 3 "" H 8100 2300 50  0001 C CNN
+	1    8100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 625A0882
+P 8100 2200
+AR Path="/62433ACD/625A0882" Ref="R?"  Part="1" 
+AR Path="/6243DD0B/625A0882" Ref="R?"  Part="1" 
+AR Path="/6256A6BF/625A0882" Ref="R14"  Part="1" 
+F 0 "R14" H 8159 2246 50  0000 L CNN
+F 1 "4.7k" H 8159 2155 50  0000 L CNN
+F 2 "3544again:R_0805_2012Metric" H 8100 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 8100 2200 50  0001 C CNN
+F 4 "C17673" H 8100 2200 50  0001 C CNN "Description"
+	1    8100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 625A0889
+P 7400 1950
+AR Path="/62433ACD/625A0889" Ref="D?"  Part="1" 
+AR Path="/6243DD0B/625A0889" Ref="D?"  Part="1" 
+AR Path="/6256A6BF/625A0889" Ref="D13"  Part="1" 
+F 0 "D13" V 7439 1832 50  0000 R CNN
+F 1 "0603" V 7300 1850 50  0000 R CNN
+F 2 "3544again:LED_0603_1608Metric" H 7400 1950 50  0001 C CNN
+F 3 "Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 7400 1950 50  0001 C CNN
+F 4 "C72043" H 7400 1950 50  0001 C CNN "Description"
+	1    7400 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 1800 7400 1800
+$Comp
+L power:GND #PWR?
+U 1 1 625A0890
+P 7400 2300
+AR Path="/62433ACD/625A0890" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A0890" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A0890" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 7400 2050 50  0001 C CNN
+F 1 "GND" H 7405 2127 50  0000 C CNN
+F 2 "" H 7400 2300 50  0001 C CNN
+F 3 "" H 7400 2300 50  0001 C CNN
+	1    7400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 625A0897
+P 7400 2200
+AR Path="/62433ACD/625A0897" Ref="R?"  Part="1" 
+AR Path="/6243DD0B/625A0897" Ref="R?"  Part="1" 
+AR Path="/6256A6BF/625A0897" Ref="R13"  Part="1" 
+F 0 "R13" H 7459 2246 50  0000 L CNN
+F 1 "4.7k" H 7459 2155 50  0000 L CNN
+F 2 "3544again:R_0805_2012Metric" H 7400 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 7400 2200 50  0001 C CNN
+F 4 "C17673" H 7400 2200 50  0001 C CNN "Description"
+	1    7400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 625A089E
+P 6700 1950
+AR Path="/62433ACD/625A089E" Ref="D?"  Part="1" 
+AR Path="/6243DD0B/625A089E" Ref="D?"  Part="1" 
+AR Path="/6256A6BF/625A089E" Ref="D12"  Part="1" 
+F 0 "D12" V 6739 1832 50  0000 R CNN
+F 1 "0603" V 6600 1850 50  0000 R CNN
+F 2 "3544again:LED_0603_1608Metric" H 6700 1950 50  0001 C CNN
+F 3 "Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 6700 1950 50  0001 C CNN
+F 4 "C72043" H 6700 1950 50  0001 C CNN "Description"
+	1    6700 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 1800 6700 1800
+$Comp
+L power:GND #PWR?
+U 1 1 625A08A5
+P 6700 2300
+AR Path="/62433ACD/625A08A5" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A08A5" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A08A5" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 6700 2050 50  0001 C CNN
+F 1 "GND" H 6705 2127 50  0000 C CNN
+F 2 "" H 6700 2300 50  0001 C CNN
+F 3 "" H 6700 2300 50  0001 C CNN
+	1    6700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 625A08AC
+P 6700 2200
+AR Path="/62433ACD/625A08AC" Ref="R?"  Part="1" 
+AR Path="/6243DD0B/625A08AC" Ref="R?"  Part="1" 
+AR Path="/6256A6BF/625A08AC" Ref="R12"  Part="1" 
+F 0 "R12" H 6759 2246 50  0000 L CNN
+F 1 "4.7k" H 6759 2155 50  0000 L CNN
+F 2 "3544again:R_0805_2012Metric" H 6700 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 6700 2200 50  0001 C CNN
+F 4 "C17673" H 6700 2200 50  0001 C CNN "Description"
+	1    6700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 625A08B3
+P 6000 1950
+AR Path="/62433ACD/625A08B3" Ref="D?"  Part="1" 
+AR Path="/6243DD0B/625A08B3" Ref="D?"  Part="1" 
+AR Path="/6256A6BF/625A08B3" Ref="D11"  Part="1" 
+F 0 "D11" V 6039 1832 50  0000 R CNN
+F 1 "0603" V 5900 1850 50  0000 R CNN
+F 2 "3544again:LED_0603_1608Metric" H 6000 1950 50  0001 C CNN
+F 3 "Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 6000 1950 50  0001 C CNN
+F 4 "C72043" H 6000 1950 50  0001 C CNN "Description"
+	1    6000 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 1800 6000 1800
+$Comp
+L power:GND #PWR?
+U 1 1 625A08BA
+P 6000 2300
+AR Path="/62433ACD/625A08BA" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A08BA" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A08BA" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 6000 2050 50  0001 C CNN
+F 1 "GND" H 6005 2127 50  0000 C CNN
+F 2 "" H 6000 2300 50  0001 C CNN
+F 3 "" H 6000 2300 50  0001 C CNN
+	1    6000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 625A08C1
+P 6000 2200
+AR Path="/62433ACD/625A08C1" Ref="R?"  Part="1" 
+AR Path="/6243DD0B/625A08C1" Ref="R?"  Part="1" 
+AR Path="/6256A6BF/625A08C1" Ref="R11"  Part="1" 
+F 0 "R11" H 6059 2246 50  0000 L CNN
+F 1 "4.7k" H 6059 2155 50  0000 L CNN
+F 2 "3544again:R_0805_2012Metric" H 6000 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 6000 2200 50  0001 C CNN
+F 4 "C17673" H 6000 2200 50  0001 C CNN "Description"
+	1    6000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 625A08C8
+P 5350 1950
+AR Path="/62433ACD/625A08C8" Ref="D?"  Part="1" 
+AR Path="/6243DD0B/625A08C8" Ref="D?"  Part="1" 
+AR Path="/6256A6BF/625A08C8" Ref="D10"  Part="1" 
+F 0 "D10" V 5389 1832 50  0000 R CNN
+F 1 "0603" V 5250 1850 50  0000 R CNN
+F 2 "3544again:LED_0603_1608Metric" H 5350 1950 50  0001 C CNN
+F 3 "Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 5350 1950 50  0001 C CNN
+F 4 "C72043" H 5350 1950 50  0001 C CNN "Description"
+	1    5350 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 1800 5350 1800
+$Comp
+L power:GND #PWR?
+U 1 1 625A08CF
+P 5350 2300
+AR Path="/62433ACD/625A08CF" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A08CF" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A08CF" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 5350 2050 50  0001 C CNN
+F 1 "GND" H 5355 2127 50  0000 C CNN
+F 2 "" H 5350 2300 50  0001 C CNN
+F 3 "" H 5350 2300 50  0001 C CNN
+	1    5350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 625A08D6
+P 5350 2200
+AR Path="/62433ACD/625A08D6" Ref="R?"  Part="1" 
+AR Path="/6243DD0B/625A08D6" Ref="R?"  Part="1" 
+AR Path="/6256A6BF/625A08D6" Ref="R10"  Part="1" 
+F 0 "R10" H 5409 2246 50  0000 L CNN
+F 1 "4.7k" H 5409 2155 50  0000 L CNN
+F 2 "3544again:R_0805_2012Metric" H 5350 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 5350 2200 50  0001 C CNN
+F 4 "C17673" H 5350 2200 50  0001 C CNN "Description"
+	1    5350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 625A08DD
+P 4700 1950
+AR Path="/62433ACD/625A08DD" Ref="D?"  Part="1" 
+AR Path="/6243DD0B/625A08DD" Ref="D?"  Part="1" 
+AR Path="/6256A6BF/625A08DD" Ref="D9"  Part="1" 
+F 0 "D9" V 4739 1832 50  0000 R CNN
+F 1 "0603" V 4600 1850 50  0000 R CNN
+F 2 "3544again:LED_0603_1608Metric" H 4700 1950 50  0001 C CNN
+F 3 "Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 4700 1950 50  0001 C CNN
+F 4 "C72043" H 4700 1950 50  0001 C CNN "Description"
+	1    4700 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 1800 4700 1800
+$Comp
+L power:GND #PWR?
+U 1 1 625A08E4
+P 4700 2300
+AR Path="/62433ACD/625A08E4" Ref="#PWR?"  Part="1" 
+AR Path="/6243DD0B/625A08E4" Ref="#PWR?"  Part="1" 
+AR Path="/6256A6BF/625A08E4" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 4700 2050 50  0001 C CNN
+F 1 "GND" H 4705 2127 50  0000 C CNN
+F 2 "" H 4700 2300 50  0001 C CNN
+F 3 "" H 4700 2300 50  0001 C CNN
+	1    4700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 625A08EB
+P 4700 2200
+AR Path="/62433ACD/625A08EB" Ref="R?"  Part="1" 
+AR Path="/6243DD0B/625A08EB" Ref="R?"  Part="1" 
+AR Path="/6256A6BF/625A08EB" Ref="R9"  Part="1" 
+F 0 "R9" H 4759 2246 50  0000 L CNN
+F 1 "4.7k" H 4759 2155 50  0000 L CNN
+F 2 "3544again:R_0805_2012Metric" H 4700 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 4700 2200 50  0001 C CNN
+F 4 "C17673" H 4700 2200 50  0001 C CNN "Description"
+	1    4700 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 8600 1800
+Connection ~ 7850 1800
+Connection ~ 7150 1800
+Connection ~ 6450 1800
+Connection ~ 5750 1800
+Connection ~ 5100 1800
+Connection ~ 4450 1800
+$Comp
+L SamacSys_Parts:SN74LVC245AN IC?
+U 1 1 625A08FE
+P 2800 3800
+AR Path="/625A08FE" Ref="IC?"  Part="1" 
+AR Path="/6243DD0B/625A08FE" Ref="IC?"  Part="1" 
+AR Path="/6256A6BF/625A08FE" Ref="IC2"  Part="1" 
+F 0 "IC2" H 3300 4065 50  0000 C CNN
+F 1 "SN74LVC245AN" H 3300 3974 50  0000 C CNN
+F 2 "SamacSys_Parts:DIP794W53P254L2540H508Q20N" H 3650 3900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/sn74lvc245a" H 3650 3800 50  0001 L CNN
+F 4 "Octal Bus Transceiver With 3-State Outputs" H 3650 3700 50  0001 L CNN "Description"
+F 5 "5.08" H 3650 3600 50  0001 L CNN "Height"
+F 6 "595-SN74LVC245AN" H 3650 3500 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC245AN?qs=N6WZOzgtpqVHY3EQAIUFKw%3D%3D" H 3650 3400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 3650 3300 50  0001 L CNN "Manufacturer_Name"
+F 9 "SN74LVC245AN" H 3650 3200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2800 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 3900 0    50   Input ~ 0
+DATA9
+Wire Wire Line
+	2600 3900 2800 3900
+Text GLabel 2600 4000 0    50   Input ~ 0
+DATA10
+Text GLabel 2600 4100 0    50   Input ~ 0
+DATA11
+Text GLabel 2600 4200 0    50   Input ~ 0
+DATA12
+Text GLabel 2600 4300 0    50   Input ~ 0
+DATA13
+Text GLabel 2600 4400 0    50   Input ~ 0
+DATA14
+Text GLabel 2600 4500 0    50   Input ~ 0
+DATA15
+Text GLabel 2600 4600 0    50   Input ~ 0
+DATA16
+Wire Wire Line
+	2600 4000 2800 4000
+Wire Wire Line
+	2600 4100 2800 4100
+Wire Wire Line
+	2600 4200 2800 4200
+Wire Wire Line
+	2600 4300 2800 4300
+Wire Wire Line
+	2600 4400 2800 4400
+Wire Wire Line
+	2600 4500 2800 4500
+Wire Wire Line
+	2600 4600 2800 4600
+Wire Wire Line
+	4350 4000 3800 4000
+Wire Wire Line
+	4350 1800 4350 4000
+Wire Wire Line
+	5000 4100 3800 4100
+Wire Wire Line
+	5000 1800 5000 4100
+Wire Wire Line
+	5650 4200 3800 4200
+Wire Wire Line
+	5650 1800 5650 4200
+Wire Wire Line
+	6350 4300 3800 4300
+Wire Wire Line
+	6350 1800 6350 4300
+Wire Wire Line
+	7050 4400 3800 4400
+Wire Wire Line
+	7050 1800 7050 4400
+Wire Wire Line
+	7750 4500 3800 4500
+Wire Wire Line
+	7750 1800 7750 4500
+Wire Wire Line
+	8500 4600 3800 4600
+Wire Wire Line
+	8500 1800 8500 4600
+Wire Wire Line
+	9200 4700 3800 4700
+Wire Wire Line
+	9200 1800 9200 4700
+$Comp
+L power:GND #PWR?
+U 1 1 625C536A
+P 2800 4700
+F 0 "#PWR?" H 2800 4450 50  0001 C CNN
+F 1 "GND" H 2805 4527 50  0000 C CNN
+F 2 "" H 2800 4700 50  0001 C CNN
+F 3 "" H 2800 4700 50  0001 C CNN
+	1    2800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 625C5A59
+P 3800 3800
+F 0 "#PWR?" H 3800 3650 50  0001 C CNN
+F 1 "+5V" H 3815 3973 50  0000 C CNN
+F 2 "" H 3800 3800 50  0001 C CNN
+F 3 "" H 3800 3800 50  0001 C CNN
+	1    3800 3800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
