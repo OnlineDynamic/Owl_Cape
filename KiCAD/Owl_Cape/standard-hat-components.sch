@@ -4,59 +4,15 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
-Title ""
+Title "The Owl - RPI Cape 16ch Pixel Controller"
 Date ""
 Rev ""
-Comp ""
+Comp "OnlineDynamic"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 62351E23
-P 1350 6550
-F 0 "H1" H 1200 6650 60  0000 C CNN
-F 1 "3mm_Mounting_Hole" H 1350 6400 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 1250 6550 60  0001 C CNN
-F 3 "" H 1250 6550 60  0001 C CNN
-	1    1350 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 62351E24
-P 2350 6550
-F 0 "H3" H 2200 6650 60  0000 C CNN
-F 1 "3mm_Mounting_Hole" H 2350 6400 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 2250 6550 60  0001 C CNN
-F 3 "" H 2250 6550 60  0001 C CNN
-	1    2350 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5834BD62
-P 1350 7100
-F 0 "H2" H 1200 7200 60  0000 C CNN
-F 1 "3mm_Mounting_Hole" H 1350 6950 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 1250 7100 60  0001 C CNN
-F 3 "" H 1250 7100 60  0001 C CNN
-	1    1350 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 62351E26
-P 2400 7100
-F 0 "H4" H 2250 7200 60  0000 C CNN
-F 1 "3mm_Mounting_Hole" H 2400 6950 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 2300 7100 60  0001 C CNN
-F 3 "" H 2300 7100 60  0001 C CNN
-	1    2400 7100
-	1    0    0    -1  
-$EndComp
 Text Label 7350 1900 2    60   ~ 0
 P5V_HAT
 Text Label 5500 1900 0    60   ~ 0
@@ -67,28 +23,6 @@ Text Notes 5350 1250 0    118  ~ 24
 5V Powered HAT Protection
 Text Notes 5100 1550 0    60   ~ 0
 This is the recommended 5V rail protection for \na HAT with power going to the Pi.\nSee https://github.com/raspberrypi/hats/blob/master/designguide.md#back-powering-the-pi-via-the-j8-gpio-header
-$Comp
-L Device:R R27
-U 1 1 58E15896
-P 5950 3100
-F 0 "R27" V 6030 3100 50  0000 C CNN
-F 1 "10K" V 5950 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 5880 3100 50  0001 C CNN
-F 3 "" H 5950 3100 50  0001 C CNN
-	1    5950 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R28
-U 1 1 58E158A1
-P 6750 3100
-F 0 "R28" V 6830 3100 50  0000 C CNN
-F 1 "47K" V 6750 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 6680 3100 50  0001 C CNN
-F 3 "" H 6750 3100 50  0001 C CNN
-	1    6750 3100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR056
 U 1 1 58E15A41
@@ -111,10 +45,6 @@ F 3 "" H 6750 3300 50  0000 C CNN
 	1    6750 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 3300 5950 3250
-Wire Wire Line
-	6750 3300 6750 3250
 Wire Wire Line
 	6750 2700 6750 2800
 Wire Wire Line
@@ -274,7 +204,7 @@ AR Path="/6235D74F/6237F6EC" Ref="C?"  Part="1"
 AR Path="/6235185D/6237F6EC" Ref="C2"  Part="1" 
 F 0 "C2" V 1321 2700 50  0000 C CNN
 F 1 "0.1uF" V 1412 2700 50  0000 C CNN
-F 2 "3544again:C_0805_2012Metric" H 1550 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 1550 2700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 1550 2700 50  0001 C CNN
 F 4 "C49678" H 1550 2700 50  0001 C CNN "Description"
 	1    1550 2700
@@ -288,7 +218,7 @@ AR Path="/6235D74F/6237F6F3" Ref="R?"  Part="1"
 AR Path="/6235185D/6237F6F3" Ref="R26"  Part="1" 
 F 0 "R26" H 2509 2646 50  0000 L CNN
 F 1 "4.7k" H 2509 2555 50  0000 L CNN
-F 2 "3544again:R_0805_2012Metric" H 2450 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2450 2600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 2450 2600 50  0001 C CNN
 F 4 "C17673" H 2450 2600 50  0001 C CNN "Description"
 	1    2450 2600
@@ -302,7 +232,7 @@ AR Path="/6235D74F/6237F6FA" Ref="R?"  Part="1"
 AR Path="/6235185D/6237F6FA" Ref="R25"  Part="1" 
 F 0 "R25" V 2409 2646 50  0001 L CNN
 F 1 "4.7k" H 2409 2555 50  0001 L CNN
-F 2 "3544again:R_0805_2012Metric" H 2350 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2350 2600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 2350 2600 50  0001 C CNN
 F 4 "C17673" H 2350 2600 50  0001 C CNN "Description"
 	1    2350 2600
@@ -337,7 +267,7 @@ AR Path="/6235D74F/6237F70D" Ref="U?"  Part="1"
 AR Path="/6235185D/6237F70D" Ref="U1"  Part="1" 
 F 0 "U1" H 1800 3800 50  0000 C CNN
 F 1 "AT24C256C" H 1800 3700 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1850 3000 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1850 3000 50  0001 C BNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF" H 1850 3000 50  0001 C CNN
 F 4 "C6482" H 1850 3000 50  0001 C CNN "Description"
 	1    1850 3000
@@ -358,69 +288,101 @@ Connection ~ 1450 3000
 Text Notes 2100 2200 0    50   ~ 10
 EEPROM
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H5
 U 1 1 623545E3
-P 3950 6500
-F 0 "H?" H 4050 6546 50  0000 L CNN
-F 1 "MountingHole" H 4050 6455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 3950 6500 50  0001 C CNN
-F 3 "~" H 3950 6500 50  0001 C CNN
-	1    3950 6500
+P 1100 6550
+F 0 "H5" H 1200 6596 50  0000 L CNN
+F 1 "M3 MountingHole" H 1200 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 1100 6550 50  0001 C CNN
+F 3 "~" H 1100 6550 50  0001 C CNN
+	1    1100 6550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H6
 U 1 1 623545E9
-P 3950 6700
-F 0 "H?" H 4050 6746 50  0000 L CNN
-F 1 "MountingHole" H 4050 6655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 3950 6700 50  0001 C CNN
-F 3 "~" H 3950 6700 50  0001 C CNN
-	1    3950 6700
+P 1100 6750
+F 0 "H6" H 1200 6796 50  0000 L CNN
+F 1 "M3 MountingHole" H 1200 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 1100 6750 50  0001 C CNN
+F 3 "~" H 1100 6750 50  0001 C CNN
+	1    1100 6750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H7
 U 1 1 623545EF
-P 3950 6900
-F 0 "H?" H 4050 6946 50  0000 L CNN
-F 1 "MountingHole" H 4050 6855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 3950 6900 50  0001 C CNN
-F 3 "~" H 3950 6900 50  0001 C CNN
-	1    3950 6900
+P 1100 6950
+F 0 "H7" H 1200 6996 50  0000 L CNN
+F 1 "M3 MountingHole" H 1200 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 1100 6950 50  0001 C CNN
+F 3 "~" H 1100 6950 50  0001 C CNN
+	1    1100 6950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H8
 U 1 1 623545F5
-P 3950 7100
-F 0 "H?" H 4050 7146 50  0000 L CNN
-F 1 "MountingHole" H 4050 7055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 3950 7100 50  0001 C CNN
-F 3 "~" H 3950 7100 50  0001 C CNN
-	1    3950 7100
+P 1100 7150
+F 0 "H8" H 1200 7196 50  0000 L CNN
+F 1 "M3 MountingHole" H 1200 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 1100 7150 50  0001 C CNN
+F 3 "~" H 1100 7150 50  0001 C CNN
+	1    1100 7150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H9
 U 1 1 623545FB
-P 4750 6500
-F 0 "H?" H 4850 6546 50  0000 L CNN
-F 1 "MountingHole" H 4850 6455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 4750 6500 50  0001 C CNN
-F 3 "~" H 4750 6500 50  0001 C CNN
-	1    4750 6500
+P 2150 6550
+F 0 "H9" H 2250 6596 50  0000 L CNN
+F 1 "M3 MountingHole" H 2250 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 2150 6550 50  0001 C CNN
+F 3 "~" H 2150 6550 50  0001 C CNN
+	1    2150 6550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H10
 U 1 1 62354601
-P 4750 6700
-F 0 "H?" H 4850 6746 50  0000 L CNN
-F 1 "MountingHole" H 4850 6655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 4750 6700 50  0001 C CNN
-F 3 "~" H 4750 6700 50  0001 C CNN
-	1    4750 6700
+P 2150 6750
+F 0 "H10" H 2250 6796 50  0000 L CNN
+F 1 "M3 MountingHole" H 2250 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 2150 6750 50  0001 C CNN
+F 3 "~" H 2150 6750 50  0001 C CNN
+	1    2150 6750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6237BD5B
+P 6750 3050
+AR Path="/6235D74F/6237BD5B" Ref="R?"  Part="1" 
+AR Path="/6235185D/6237BD5B" Ref="R28"  Part="1" 
+F 0 "R28" H 6809 3096 50  0000 L CNN
+F 1 "4.7k" H 6809 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6750 3050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 6750 3050 50  0001 C CNN
+F 4 "C17673" H 6750 3050 50  0001 C CNN "Description"
+	1    6750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3150 6750 3300
+$Comp
+L Device:R_Small R?
+U 1 1 62380363
+P 5950 3050
+AR Path="/6235D74F/62380363" Ref="R?"  Part="1" 
+AR Path="/6235185D/62380363" Ref="R27"  Part="1" 
+F 0 "R27" H 6009 3096 50  0000 L CNN
+F 1 "10k" H 6009 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5950 3050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 5950 3050 50  0001 C CNN
+F 4 "C17673" H 5950 3050 50  0001 C CNN "Description"
+	1    5950 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3150 5950 3300
 $EndSCHEMATC
