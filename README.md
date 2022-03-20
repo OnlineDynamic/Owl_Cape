@@ -24,4 +24,4 @@ Out of scope
 Any differential outputs
 
 Special Thanks to:
-
+https://github.com/Kosh42/PCB-Designs/tree/main/Mirage for the inspiration
