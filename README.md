@@ -7,21 +7,21 @@ This project is looking to create a simple low cost 16ch Raspberry PI Cape to ru
 
 Basic Spec of Cape
 
-12V DC in only (fused at xx Amps)
-PI Mounts on PCB
-40 Pin Header for attaching to RPI via a ribbon cable (allow easy removal of PI)
-Power the RPI via Header pins
-16 Ch of LED (WS2811) outputs individually fused at 5A running at 12V DC with SMD LED power indicators
-EEPROM onboard to identify CAPE to PI
+- 12V DC in only (fused at xx Amps)
+- PI Mounts on PCB
+- 40 Pin Header for attaching to RPI via a ribbon cable (allow easy removal of PI)
+- Power the RPI via Header pins
+- 16 Ch of LED (WS2811) outputs individually fused at 5A running at 12V DC with SMD LED power indicators
+- EEPROM onboard to identify CAPE to PI
 
 
 Potential Future expansion
-On board RJ45 Jack to connect wired ethernet to PI using USB test pads on PI
-Jumper to make LED voltage either 12V or 5V DC
-Basic LED Screen showing status
+- On board RJ45 Jack to connect wired ethernet to PI using USB test pads on PI
+- Jumper to make LED voltage either 12V or 5V DC
+- Basic LED Screen showing status
 
 Out of scope
-Any differential outputs
+- Any differential outputs
 
 Special Thanks to:
 https://github.com/Kosh42/PCB-Designs/tree/main/Mirage for the inspiration
