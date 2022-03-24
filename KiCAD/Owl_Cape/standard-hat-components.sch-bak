@@ -358,8 +358,8 @@ L Device:R_Small R?
 U 1 1 6237BD5B
 P 6750 3050
 AR Path="/6235D74F/6237BD5B" Ref="R?"  Part="1" 
-AR Path="/6235185D/6237BD5B" Ref="R?"  Part="1" 
-F 0 "R?" H 6809 3096 50  0000 L CNN
+AR Path="/6235185D/6237BD5B" Ref="R28"  Part="1" 
+F 0 "R28" H 6809 3096 50  0000 L CNN
 F 1 "4.7k" H 6809 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 6750 3050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 6750 3050 50  0001 C CNN
@@ -374,8 +374,8 @@ L Device:R_Small R?
 U 1 1 62380363
 P 5950 3050
 AR Path="/6235D74F/62380363" Ref="R?"  Part="1" 
-AR Path="/6235185D/62380363" Ref="R?"  Part="1" 
-F 0 "R?" H 6009 3096 50  0000 L CNN
+AR Path="/6235185D/62380363" Ref="R27"  Part="1" 
+F 0 "R27" H 6009 3096 50  0000 L CNN
 F 1 "10k" H 6009 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5950 3050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 5950 3050 50  0001 C CNN
