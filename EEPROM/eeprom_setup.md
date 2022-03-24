@@ -1,11 +1,24 @@
-HOWTO: Raspi HAT EEPROM and device-tree
+# HOWTO: Raspi HAT EEPROM and device-tree setup
 
 Customised from https://forums.raspberrypi.com/viewtopic.php?t=108134
 
+## Intro
 
-As it is hard to find good quality information EEPROM for HATs, and after some struggling I have found the post above but it too had issues and seemedout of date, so I decided to write this file to create a set of instructions for myself to use with the 'Owl Cape' project but have tried to leave in lots of description to help others more generically. 
+As it is hard to find good quality information EEPROM for HATs, and after some struggling I have found the post above but it too had issues and seemed out of date, so I decided to write this file to create a set of instructions for myself to use with the 'Owl Cape' project but have tried to leave in lots of description to help others more generically. 
 
-In this project I'musing a Amtel AT24C256 (32,768 x 8) but typically the Pi speck talks about using its smaller brother the AT24C32 (4,096 x 8)
+In this project I'musing a Amtel AT24C256 (32,768 x 8) but typically the Pi spec talks about using its smaller brother the AT24C32 (4,096 x 8)
+
+This process should work for:
+- 24c32
+- 24c64
+- 24c128
+- 24c256
+- 24c512
+- 24c1024
+
+(with the correct adjustments in file size generation and type command passed to eepflash)
+
+## Setup Raspberry PI
 
 As a preliminary step, you need to activate videocore I2C. This is done by adding a line at the beginning of your /boot/config.txt file :
 
@@ -42,6 +55,15 @@ Code:
 ```bash
 make && sudo make install
 ```
+
+Install I2C tools (used for detecting EEPROM)
+
+Code:
+```bash
+sudo apt install i2c-tools
+```
+
+## Create Custom EEPROM Content
 
 First of all, you need to modify eeprom_settings.txt to create your own version of HAT board. You don't have to modify UUID, as it will be auto-generated.
 
@@ -147,12 +169,7 @@ Code:
 ```
 You have now a working HAT file!
 
-Install I2C tools
-
-Code:
-```bash
-sudo apt install i2c-tools
-```
+## Writting file to EEPROM
 
 You can now write it on EEPROM. If you have followed my design, you have a 24c256 memory (32k) if you have pi standard hat spec you have 24c32 memory (4k). But your myhat.eep file is smaller. As you don't know the state of your EEPROM, you may have conflict, as your myhat.eep could be misread. To avoid that, we shall start by cleaning EEPROM.
 
@@ -171,7 +188,7 @@ Code:
 hexdump blank.eep
 ```
 
-Make sure you can talk to the EEPROM
+## Make sure you can talk to the EEPROM
 
     In the HAT specification, the HAT EEPROM is connected to pins that can be driven by I2C0. However, this is the same interface as used by the camera and displays, so use of it by the ARMs is discouraged. The eepflash.sh script gets around this problem by instantiating a software driven I2C interface using those pins as GPIOs, calling it i2c-9:
 
@@ -180,12 +197,12 @@ Code:
    sudo dtoverlay i2c-gpio i2c_gpio_sda=0 i2c_gpio_scl=1 bus=9
 ```
 
-    Install i2cdetect Code:
+Install i2cdetect Code:
 ```bash
    sudo apt install i2c-tools
 ```
     
-    Check with i2cdetect -y 9 (should be at address 0x50)
+Check with i2cdetect -y 9 (should be at address 0x50)
 
 Code:
 ```bash
@@ -239,6 +256,8 @@ sudo hexdump /sys/class/i2c-adapter/i2c-9/0-0050/eeprom
 
 If the contents match, you can reboot your Raspberry Pi.
 
+## Checking it worked and PI recognises HAT
+
 To check if your HAT is recognized, just go to /proc/device-tree/. If you see a hat directory, you are a winner:)
 
 Code:
@@ -247,6 +266,8 @@ cd /proc/device-tree/hat/
 more vendor
 more product
 ```
+
+## Setting up Auto Configuration
 
 The next step is to allow autoconfiguration of this HAT, following device-tree usage. In our example, we have a led connected to GPIO 18 (pin 12). I suggest you to test it before, using /sys/class/gpio :
 
