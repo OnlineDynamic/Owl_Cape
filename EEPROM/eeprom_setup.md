@@ -28,11 +28,11 @@ The pins need to be wired like this:
 |-----------------|-----------------------|--------------------------------|
 |1 (AO) 	      |GND (pins 6, 9, 14, 20, 25, 30, 34, 39)| 	All address pins tied to ground will place the EEPROM at address 50. This is the required address in the specification|
 |2 (A1)           |GND                    |                             | 	
-|3 (A2)           |GND|| 	
-|4 VSS 	|GND 	||
+|3 NC           |Not Connected|| 	
+|4 GND 	|GND 	||
 |5 SDA | 	27 You should also add a 3.9K pullup resistor from EEPROM pin 5 to 3.3V | You must use this pin for the Raspberry Pi to detect the EEPROM on startup |
 |6 SCL | 	28 You should also add a 3.9K pullup resistor from EEPROM pin 6 to 3.3V | You must use this pin for the Raspberry Pi to detect the EEPROM on startup |
-|7 WP 	|Not connected 	| Write protect. I don’t need this.|
+|7 WP 	|Not connected 	| Write protect. The write protect input, when connected to GND, allows normal write operations. When WP is connected high to V CC , all write operations to the memory are inhib-ited. If the pin is left floating, the WP pin will be internally pulled down to GND.|
 |8 VCC 	| 3.3V (pins 1 or 17) |	The EEPROM is capable of being run at 5 volts, but must be run at 3.3 volts to work as a HAT identification EEPROM.|
 
 The specification requires that the data pin be on pin 27, the clock pin be on pin 28, and that the EEPROM be at address 50 on the i2c bus as described in the table above. There is also some mention of pullup resistors in both the data sheet and the HAT specification, but not in a lot of detail. The best I could find was a circuit diagram for a different EEPROM with the pullup resistors shown.
