@@ -374,8 +374,8 @@ Code:
 
 ## Footnotes of reference sites used
 
-[^1]https://github.com/raspberrypi/hats/tree/master/eepromutils
-[^2]https://www.madebymikal.com/raspberry-pi-hat-identity-eeproms-a-simple-guide/
-[^3]AT24C256 Spec https://datasheetspdf.com/pdf-file/160492/ATMELCorporation/AT24C256/1
-[^4]Raspberry Pi Pinout https://pinout.xyz/pinout/sdio#
+[^1]: Official Guide https://github.com/raspberrypi/hats/tree/master/eepromutils
+[^2]: Helpful blog https://www.madebymikal.com/raspberry-pi-hat-identity-eeproms-a-simple-guide/
+[^3]: AT24C256 Spec https://datasheetspdf.com/pdf-file/160492/ATMELCorporation/AT24C256/1
+[^4]: Raspberry Pi Pinout https://pinout.xyz/pinout/sdio#
 
