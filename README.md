@@ -5,7 +5,7 @@ Building on the great work of the Falcon FPP project, numerous open hardware pix
 
 This project is looking to create a simple low cost 16ch Raspberry PI Cape to run on FPP using SMI interface of a 'Raspberry Pi Zero 2 W' (and potentially then expand out to supporting other Pi's with the 40PIN Header).  The aspiration is for the final code for the cape to be included in the FPP project and the xLights project to make a low cost easy to use pixel controller for LED pixel light shows which will benefit as the FPP project evolves its functionality.
 
-Basic Spec of Cape
+## Basic Spec of Cape
 
 - 12V DC in only (fused at xx Amps)
 - PI Mounts on PCB
@@ -15,13 +15,13 @@ Basic Spec of Cape
 - EEPROM onboard to identify CAPE to PI
 
 
-Potential Future expansion
+## Potential Future expansion
 - On board RJ45 Jack to connect wired ethernet to PI using USB test pads on PI
 - Jumper to make LED voltage either 12V or 5V DC
 - Basic LED Screen showing status
 
-Out of scope
+## Out of scope
 - Any differential outputs
 
-Special Thanks to:
+## Special Thanks to:
 https://github.com/Kosh42/PCB-Designs/tree/main/Mirage for the inspiration
