@@ -1,0 +1,63 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 284514-3-SamacSys_Parts
+#
+DEF 284514-3-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "284514-3-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "SHDR3W80P0X350_1X3_1250X725X940P" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3" 650 0 50 H I L CNN
+F4 "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header" 650 -100 50 H I L CNN "Description"
+F5 "9.4" 650 -200 50 H I L CNN "Height"
+F6 "571-284514-3" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "284514-3" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SN74HC244N-SamacSys_Parts
+#
+DEF SN74HC244N-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "SN74HC244N-SamacSys_Parts" 950 200 50 H V L CNN
+F2 "DIP794W53P254L2540H508Q20N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc244" 950 0 50 H I L CNN
+F4 "Octal Buffers And Line Drivers With 3-State Outputs" 950 -100 50 H I L CNN "Description"
+F5 "5.08" 950 -200 50 H I L CNN "Height"
+F6 "595-SN74HC244N" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HC244N?qs=N6WZOzgtpqVj86wWMB9mFg%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SN74HC244N" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -1000 200 -1000 200 100 N
+X 1~{OE} 1 0 0 200 R 50 50 0 0 P
+X GND 10 0 -900 200 R 50 50 0 0 W
+X 2A1 11 1100 -900 200 L 50 50 0 0 P
+X 1Y4 12 1100 -800 200 L 50 50 0 0 P
+X 2A2 13 1100 -700 200 L 50 50 0 0 P
+X 1Y3 14 1100 -600 200 L 50 50 0 0 P
+X 2A3 15 1100 -500 200 L 50 50 0 0 P
+X 1Y2 16 1100 -400 200 L 50 50 0 0 P
+X 2A4 17 1100 -300 200 L 50 50 0 0 P
+X 1Y1 18 1100 -200 200 L 50 50 0 0 P
+X 2~{OE} 19 1100 -100 200 L 50 50 0 0 P
+X 1A1 2 0 -100 200 R 50 50 0 0 P
+X VCC 20 1100 0 200 L 50 50 0 0 W
+X 2Y4 3 0 -200 200 R 50 50 0 0 P
+X 1A2 4 0 -300 200 R 50 50 0 0 P
+X 2Y3 5 0 -400 200 R 50 50 0 0 P
+X 1A3 6 0 -500 200 R 50 50 0 0 P
+X 2Y2 7 0 -600 200 R 50 50 0 0 P
+X 1A4 8 0 -700 200 R 50 50 0 0 P
+X 2Y1 9 0 -800 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
