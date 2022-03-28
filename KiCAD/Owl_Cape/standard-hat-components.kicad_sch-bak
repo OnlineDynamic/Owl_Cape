@@ -1223,7 +1223,7 @@
     (property "Reference" "#FLG0102" (id 0) (at 48.895 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "PWR_FLAG" (id 1) (at 50.165 66.4738 90)
+    (property "Value" "" (id 1) (at 50.165 66.4738 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 46.99 66.04 0)
