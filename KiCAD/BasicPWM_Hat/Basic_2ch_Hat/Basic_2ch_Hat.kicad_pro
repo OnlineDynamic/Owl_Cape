@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 2.5,
+          "height": 2.5,
+          "width": 2.5
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -333,10 +333,12 @@
     "pinned_footprint_libs": [
       "Stuart_BESPOKE"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Stuarts_BESPOKE"
+    ]
   },
   "meta": {
-    "filename": "owl_cape.kicad_pro",
+    "filename": "Basic_2ch_Hat.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -420,11 +422,7 @@
     ],
     [
       "00000000-0000-0000-0000-00006243dd0b",
-      "outports1-8"
-    ],
-    [
-      "00000000-0000-0000-0000-00006256a6bf",
-      "outports9-16"
+      "outports1-2"
     ],
     [
       "00000000-0000-0000-0000-00006235185d",
@@ -433,18 +431,6 @@
     [
       "00000000-0000-0000-0000-00006235d74f",
       "power"
-    ],
-    [
-      "0ef095a5-5266-4228-9874-aea47f1a0c73",
-      "controls"
-    ],
-    [
-      "6ac54db5-61c5-4b14-9632-5c95a8268679",
-      "Ethernet"
-    ],
-    [
-      "6ffbc1e3-3d51-4c6a-a646-f90b31d0a3d6",
-      "Serial_Diffs"
     ]
   ],
   "text_variables": {}

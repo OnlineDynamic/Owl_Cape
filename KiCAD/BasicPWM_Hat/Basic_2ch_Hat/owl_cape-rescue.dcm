@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 284514-3-SamacSys_Parts
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3
+$ENDCMP
+#
+$CMP SN74HC244N-SamacSys_Parts
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc244
+$ENDCMP
+#
+#End Doc Library

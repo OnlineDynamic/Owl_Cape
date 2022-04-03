@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "Mirage-rescue")(type "Legacy")(uri "C:/Users/stuar/Desktop/PCB-Designs-main/Mirage/Mirage-rescue.lib")(options "")(descr "")(disabled))
+  (lib (name "raspberrypi_hat")(type "Legacy")(uri "D:/Documents/1. Online Dynamic/Git Repositories/Owl_Cape/KiCAD/testpihat/raspberrypi_hat.lib")(options "")(descr "")(disabled))
+  (lib (name "AM26CD31PW")(type "Legacy")(uri "C:/Users/stuar/Desktop/PCB-Designs-main/Mirage/AM26CD31PW.lib")(options "")(descr "")(disabled))
+  (lib (name "owl_cape-rescue")(type "Legacy")(uri "${KIPRJMOD}/Basic_2ch_Hat-rescue.lib")(options "")(descr "")(disabled))
+)
