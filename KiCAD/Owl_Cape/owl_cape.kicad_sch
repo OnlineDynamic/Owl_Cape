@@ -6,6 +6,7 @@
 
   (title_block
     (title "The Owl - RPI Cape 16ch Pixel Controller")
+    (date "2022-04-04")
     (company "OnlineDynamic")
   )
 
@@ -875,7 +876,6 @@
 
   (no_connect (at 40.64 76.2) (uuid 269f19c3-6824-45a8-be29-fa58d70cbb42))
   (no_connect (at 40.64 43.18) (uuid 283c990c-ae5a-4e41-a3ad-b40ca29fe90e))
-  (no_connect (at 40.64 73.66) (uuid 38cfe839-c630-43d3-a9ec-6a89ba9e318a))
   (no_connect (at 40.64 45.72) (uuid 49575217-40b0-4890-8acf-12982cca52b5))
   (no_connect (at 53.34 68.58) (uuid 5889287d-b845-4684-b23e-663811b25d27))
   (no_connect (at 40.64 40.64) (uuid c1bac86f-cbf6-4c5b-b60d-c26fa73d9c09))
@@ -894,9 +894,17 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1241b7f2-e266-4f5c-8a97-9f0f9d0eef37)
   )
+  (wire (pts (xy 38.862 73.66) (xy 40.64 73.66))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 129527a1-f96e-4dc2-bd97-a57efa4f9aa0)
+  )
   (wire (pts (xy 53.34 50.8) (xy 59.69 50.8))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 12a24e86-2c38-4685-bba9-fff8dddb4cb0)
+  )
+  (wire (pts (xy 53.34 58.42) (xy 59.69 58.42))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 5192bdaf-9dcb-401c-b23a-afb78830ab68)
   )
   (wire (pts (xy 36.83 55.88) (xy 40.64 55.88))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -920,7 +928,7 @@
   )
   (wire (pts (xy 53.34 45.72) (xy 59.69 45.72))
     (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid aeb03be9-98f0-43f6-9432-1bb35aa04bab)
+    (uuid 9e94b529-58de-4a48-a997-5bdb78f2f800)
   )
   (wire (pts (xy 36.83 60.96) (xy 40.64 60.96))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -933,10 +941,6 @@
   (wire (pts (xy 36.83 81.28) (xy 40.64 81.28))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b8b961e9-8a60-45fc-999a-a7a3baff4e0d)
-  )
-  (wire (pts (xy 53.34 58.42) (xy 59.69 58.42))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid ba7d5266-6bc8-4416-b0ed-616433d054fd)
   )
   (wire (pts (xy 53.34 86.36) (xy 57.15 86.36))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -4222,6 +4226,11 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 9aaeec6e-84fe-4644-b0bc-5de24626ff48)
   )
+  (text "Need to check and test pinout with anaologue in on pin 29 (GPIO5)"
+    (at 18.034 96.266 0)
+    (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
+    (uuid fe5bfb02-0762-44a4-88dc-7dd7fb076c72)
+  )
 
   (global_label "DATA8" (shape output) (at 59.69 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -4230,10 +4239,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "DATA7" (shape output) (at 59.69 45.72 0) (fields_autoplaced)
+  (global_label "DATA7" (shape output) (at 59.69 58.42 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 04cf2f2c-74bf-400d-b4f6-201720df00ed)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 67.6385 45.6406 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 67.6385 58.3406 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4244,6 +4253,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "TXD1" (shape output) (at 59.69 45.72 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 28d32ea3-43f9-4e56-80ce-100dcd511771)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 66.6709 45.6406 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "DATA15" (shape output) (at 36.83 55.88 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2b5a9ad3-7ec4-447d-916c-47adf5f9674f)
@@ -4251,7 +4267,7 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "BTN2" (shape input) (at 59.69 63.5 0) (fields_autoplaced)
+  (global_label "BTN1" (shape input) (at 59.69 63.5 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3ad6ea3a-ad33-4b07-a012-4f867827cfc6)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 66.7918 63.4206 0)
@@ -4342,11 +4358,11 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "BTN1" (shape input) (at 59.69 58.42 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+  (global_label "BTN_ARRAY_ANALOGUE_IN" (shape input) (at 38.862 73.66 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
     (uuid cc9c13d4-67cd-429f-802d-8d14708dc85f)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 66.7918 58.3406 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 12.7102 73.5806 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "DATA2" (shape output) (at 36.83 63.5 180) (fields_autoplaced)
@@ -4835,6 +4851,9 @@
   )
 
   (symbol_instances
+    (path "/00000000-0000-0000-0000-00006256a6bf/b9193a50-9f7d-483c-b601-aef06cf87199"
+      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006235d74f/a30021f5-5a67-4058-9e17-e67cbb9f2b57"
       (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
     )
@@ -4886,7 +4905,7 @@
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-0000625c38b1"
       (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-000062631c97"
+    (path "/6ffbc1e3-3d51-4c6a-a646-f90b31d0a3d6/b2203fb5-28f3-4863-867c-bd1e0a0104dd"
       (reference "#PWR014") (unit 1) (value "GND") (footprint "")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/882f1959-4a15-435b-87de-be468139ebfc"
@@ -4952,6 +4971,15 @@
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/5d4d6335-9e5a-4823-9677-25f7b9bc37cb"
       (reference "#PWR035") (unit 1) (value "GND") (footprint "")
     )
+    (path "/6ffbc1e3-3d51-4c6a-a646-f90b31d0a3d6/9048637c-f0c9-46bf-a077-beb4b6287d44"
+      (reference "#PWR038") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/6ffbc1e3-3d51-4c6a-a646-f90b31d0a3d6/3cc10321-00c3-4013-83fe-910344df9ac7"
+      (reference "#PWR039") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6ffbc1e3-3d51-4c6a-a646-f90b31d0a3d6/2568a770-9820-43d0-b653-56a131effb11"
+      (reference "#PWR040") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006235185d/00000000-0000-0000-0000-00006237f6d1"
       (reference "#PWR051") (unit 1) (value "GND") (footprint "")
     )
@@ -4996,12 +5024,6 @@
     )
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-0000601167ca"
       (reference "#PWR067") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-00006013325a"
-      (reference "#PWR068") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-0000601327aa"
-      (reference "#PWR069") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-00006012938b"
       (reference "#PWR070") (unit 1) (value "+5V") (footprint "")
@@ -5069,14 +5091,8 @@
     (path "/00000000-0000-0000-0000-00006256a6bf/00000000-0000-0000-0000-00006239302d"
       (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006256a6bf/00000000-0000-0000-0000-000062393034"
-      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
-    )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/8f89b57d-28c0-48c7-ae88-ed1987564345"
       (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/eb4f5e44-737a-4f51-8bce-95693f02c9e9"
-      (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/63c6d324-aa66-402a-94fb-2771695afe8a"
       (reference "#PWR0123") (unit 1) (value "+5V") (footprint "")
@@ -5099,15 +5115,6 @@
     (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/734a7dab-f6c3-4215-9113-efa190893714"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
-    (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/26138f19-18f2-4767-8c67-02dad8d3128f"
-      (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/b500e342-3e2d-4936-88c2-8db847cd102f"
-      (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/d5015e5b-7cdd-4654-902a-50b3025352e9"
-      (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-00006264aa53"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:CP_Elec_4x5.3")
     )
@@ -5116,6 +5123,9 @@
     )
     (path "/00000000-0000-0000-0000-00006256a6bf/00000000-0000-0000-0000-000062393073"
       (reference "C3") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:CP_Elec_4x5.3")
+    )
+    (path "/6ffbc1e3-3d51-4c6a-a646-f90b31d0a3d6/2ef12bf1-2cf2-4f25-b9d3-059a543542ef"
+      (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-000062448d86"
       (reference "D1") (unit 1) (value "0603") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -5180,9 +5190,6 @@
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-00006011835f"
       (reference "D21") (unit 1) (value "SB5100") (footprint "Diode_THT:D_DO-201AD_P12.70mm_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-0000601327b1"
-      (reference "D22") (unit 1) (value "SB5100") (footprint "Diode_THT:D_DO-201AD_P12.70mm_Horizontal")
-    )
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-000060129b68"
       (reference "D23") (unit 1) (value "Zenner 5.1") (footprint "Diode_THT:D_5W_P10.16mm_Horizontal")
     )
@@ -5190,58 +5197,58 @@
       (reference "F1") (unit 1) (value "P1") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-000062448c73"
-      (reference "F2") (unit 1) (value "P2") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+      (reference "F2") (unit 1) (value "P2") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-000062448c86"
-      (reference "F3") (unit 1) (value "P3") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+      (reference "F3") (unit 1) (value "P3") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-000062448c99"
-      (reference "F4") (unit 1) (value "P4") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+      (reference "F4") (unit 1) (value "P4") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-000062448cac"
-      (reference "F5") (unit 1) (value "P5") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+      (reference "F5") (unit 1) (value "P5") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-000062448cbf"
-      (reference "F6") (unit 1) (value "P6") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+      (reference "F6") (unit 1) (value "P6") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
-    (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-000062448cd2"
-      (reference "F7") (unit 1) (value "P7") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+    (path "/00000000-0000-0000-0000-00006243dd0b/af61db1d-0a94-4818-8efc-99f46467ee03"
+      (reference "F7") (unit 1) (value "P7") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-000062448ce5"
-      (reference "F8") (unit 1) (value "P8") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+      (reference "F8") (unit 1) (value "P8") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
-    (path "/00000000-0000-0000-0000-00006256a6bf/00000000-0000-0000-0000-000062392ed7"
-      (reference "F9") (unit 1) (value "P1") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+    (path "/00000000-0000-0000-0000-00006256a6bf/28b428aa-8077-4a1d-9f6a-b7e8cf7a3c9a"
+      (reference "F9") (unit 1) (value "P1") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
-    (path "/00000000-0000-0000-0000-00006256a6bf/00000000-0000-0000-0000-000062392ee4"
-      (reference "F10") (unit 1) (value "P2") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+    (path "/00000000-0000-0000-0000-00006256a6bf/6f68a9fa-8857-40f5-ae46-61844c7fdccf"
+      (reference "F10") (unit 1) (value "P1") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
-    (path "/00000000-0000-0000-0000-00006256a6bf/00000000-0000-0000-0000-000062392ef1"
-      (reference "F11") (unit 1) (value "P3") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+    (path "/00000000-0000-0000-0000-00006256a6bf/c120a775-1257-42e5-9871-ec56b24b9384"
+      (reference "F11") (unit 1) (value "P1") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
-    (path "/00000000-0000-0000-0000-00006256a6bf/00000000-0000-0000-0000-000062392efe"
-      (reference "F12") (unit 1) (value "P4") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+    (path "/00000000-0000-0000-0000-00006256a6bf/917f9a99-b782-4f7d-92f6-6d75f7abf592"
+      (reference "F12") (unit 1) (value "P1") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
-    (path "/00000000-0000-0000-0000-00006256a6bf/00000000-0000-0000-0000-000062392f0b"
-      (reference "F13") (unit 1) (value "P5") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+    (path "/00000000-0000-0000-0000-00006256a6bf/7750ce66-7b22-419f-905e-65e8c3039861"
+      (reference "F13") (unit 1) (value "P1") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
-    (path "/00000000-0000-0000-0000-00006256a6bf/00000000-0000-0000-0000-000062392f18"
-      (reference "F14") (unit 1) (value "P6") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+    (path "/00000000-0000-0000-0000-00006256a6bf/c0993f30-ddaf-4ce1-b2f0-8905f2795476"
+      (reference "F14") (unit 1) (value "P1") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
-    (path "/00000000-0000-0000-0000-00006256a6bf/00000000-0000-0000-0000-000062392f25"
-      (reference "F15") (unit 1) (value "P7") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+    (path "/00000000-0000-0000-0000-00006256a6bf/5a7f1195-ffab-4bfe-a8e2-e5611bbcbfb7"
+      (reference "F15") (unit 1) (value "P1") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
-    (path "/00000000-0000-0000-0000-00006256a6bf/00000000-0000-0000-0000-000062392f32"
-      (reference "F16") (unit 1) (value "P8") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+    (path "/00000000-0000-0000-0000-00006256a6bf/2a384e22-82fa-4a57-8d88-bfbd7f4f9a1f"
+      (reference "F16") (unit 1) (value "P1") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-0000601404bc"
-      (reference "F17") (unit 1) (value "2A Max") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+      (reference "F17") (unit 1) (value "2A Max") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-0000606a2ecb"
-      (reference "F18") (unit 1) (value "30A Max") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+      (reference "F18") (unit 1) (value "30A Max") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-0000606a5080"
-      (reference "F19") (unit 1) (value "30A Max") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+      (reference "F19") (unit 1) (value "30A Max") (footprint "Stuart_BESPOKE:Medium Auto Fuse Holder")
     )
     (path "/00000000-0000-0000-0000-00006235185d/00000000-0000-0000-0000-0000623545ef"
       (reference "H1") (unit 1) (value "M3 MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom")
@@ -5255,20 +5262,17 @@
     (path "/00000000-0000-0000-0000-00006235185d/00000000-0000-0000-0000-000062354601"
       (reference "H4") (unit 1) (value "M3 MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom")
     )
-    (path "/00000000-0000-0000-0000-00006235185d/00000000-0000-0000-0000-0000623545e3"
-      (reference "H5") (unit 1) (value "M3 MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom")
-    )
-    (path "/00000000-0000-0000-0000-00006235185d/00000000-0000-0000-0000-0000623545e9"
-      (reference "H6") (unit 1) (value "M3 MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom")
-    )
     (path "/00000000-0000-0000-0000-00006243dd0b/315ed40d-2ed2-43d4-ab56-86ff969d4795"
       (reference "IC1") (unit 1) (value "SN74AHC245N") (footprint "DIP794W53P254L2540H508Q20N")
     )
-    (path "/00000000-0000-0000-0000-00006256a6bf/00000000-0000-0000-0000-00006239300a"
-      (reference "IC2") (unit 1) (value "SN74HC244N") (footprint "SamacSys_Parts:DIP794W53P254L2540H508Q20N")
+    (path "/00000000-0000-0000-0000-00006256a6bf/f5274e43-5645-48e8-b91a-cb0d7105e4fa"
+      (reference "IC2") (unit 1) (value "SN74AHC245N") (footprint "DIP794W53P254L2540H508Q20N")
     )
     (path "/5ef60788-0839-45ff-9418-a42292bfa414"
       (reference "IC3") (unit 1) (value "Raspberry_Pi_Zero_2_W__v1.0_") (footprint "Stuart_BESPOKE:RASPBERRYPIZERO2WV1")
+    )
+    (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/2995acc0-a891-434b-86c8-679b869d950f"
+      (reference "IC4") (unit 1) (value "KSZ8794CNXIC") (footprint "QFN40P800X800X90-65N")
     )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-0000625a5b8c"
       (reference "J1") (unit 1) (value "G D V") (footprint "SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P")
@@ -5322,19 +5326,25 @@
       (reference "J17") (unit 1) (value "OLED") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
     (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/01d576a8-ad2c-4c84-9ca6-2873286e3852"
-      (reference "J18") (unit 1) (value "8P8C_LED_Shielded") (footprint "Connector_RJ:RJ45_BEL_SS74301-00x_Vertical")
+      (reference "J18") (unit 1) (value "UPLINK") (footprint "Connector_RJ:RJ45_BEL_SS74301-00x_Vertical")
     )
     (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/59a2e6ec-2f55-4cea-998f-16c784e4ef65"
-      (reference "J19") (unit 1) (value "8P8C_LED_Shielded") (footprint "Connector_RJ:RJ45_BEL_SS74301-00x_Vertical")
+      (reference "J19") (unit 1) (value "LAN 1") (footprint "Connector_RJ:RJ45_BEL_SS74301-00x_Vertical")
     )
     (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/cc77aa5e-8699-4ec0-8e47-90726fc23427"
-      (reference "J20") (unit 1) (value "8P8C_LED_Shielded") (footprint "Connector_RJ:RJ45_BEL_SS74301-00x_Vertical")
+      (reference "J20") (unit 1) (value "LAN 2") (footprint "Connector_RJ:RJ45_BEL_SS74301-00x_Vertical")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/f5aa183d-f4e4-4d10-b9c1-739eb5240b0c"
+      (reference "J21") (unit 1) (value "GPIO TRG") (footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-0000600e5475"
       (reference "J22") (unit 1) (value "9-16 In") (footprint "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-0000600e4b71"
       (reference "J23") (unit 1) (value "1-8 In") (footprint "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal")
+    )
+    (path "/6ffbc1e3-3d51-4c6a-a646-f90b31d0a3d6/5968a69b-29a0-42a6-983d-76c53526d0cd"
+      (reference "J24") (unit 1) (value "DMX1 RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000062324f52"
       (reference "J30") (unit 1) (value "Conn_02x20_Odd_Even_MountingPin") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
@@ -5397,28 +5407,31 @@
       (reference "R16") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/4f031c55-0aa6-42e6-9850-5f14feceb405"
-      (reference "R17") (unit 1) (value "Pull_Up_resistor") (footprint "")
+      (reference "R17") (unit 1) (value "Pull_Up_resistor") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/47a9a2b4-3a26-4cbd-a2e8-5340504fa0ad"
-      (reference "R18") (unit 1) (value "2.2K") (footprint "")
+      (reference "R18") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/da0cf478-a988-4506-be5a-429db1e62096"
-      (reference "R19") (unit 1) (value "2.2K") (footprint "")
+      (reference "R19") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/f66953f8-20c2-4961-b701-119a3f8aa2f6"
-      (reference "R20") (unit 1) (value "2.2K") (footprint "")
+      (reference "R20") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/97e8e37c-e3ab-4b48-853a-1161fb81625e"
-      (reference "R21") (unit 1) (value "2.2K") (footprint "")
+      (reference "R21") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/3a3dde9c-2ded-4068-a674-dda66c5b6120"
-      (reference "R22") (unit 1) (value "2.2K") (footprint "")
+      (reference "R22") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/cdd226d4-1d4a-4e80-982e-4ec9eeea3d0f"
       (reference "R23") (unit 1) (value "12k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/ce94b686-8fed-4b7e-b605-4d42d1912585"
       (reference "R24") (unit 1) (value "8.06K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/6ffbc1e3-3d51-4c6a-a646-f90b31d0a3d6/41351e36-260d-41b9-aaca-459adb661c52"
+      (reference "R25") (unit 1) (value "120") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006235185d/00000000-0000-0000-0000-00006237f6fa"
       (reference "R33") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -5489,26 +5502,26 @@
     (path "/00000000-0000-0000-0000-00006256a6bf/0ddefcec-bbfa-4418-b484-2f248bf882e7"
       (reference "RN4") (unit 4) (value "33R") (footprint "Resistor_THT:R_Array_SIP8")
     )
-    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/f5aa183d-f4e4-4d10-b9c1-739eb5240b0c"
-      (reference "SW1") (unit 1) (value "Enter BTN") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+    (path "/6ffbc1e3-3d51-4c6a-a646-f90b31d0a3d6/3268cd40-a5cc-448c-914f-37a3c61bdc44"
+      (reference "SW2") (unit 1) (value "DMX_LOR_Select") (footprint "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight")
     )
-    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/88441bdf-1ba3-4f6c-8b2a-ab3f03864307"
-      (reference "SW2") (unit 1) (value "Down BTN") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+    (path "/6ffbc1e3-3d51-4c6a-a646-f90b31d0a3d6/41b7d4a6-5a5d-460e-82bd-e0c451140013"
+      (reference "SW2") (unit 2) (value "DMX_LOR_Select") (footprint "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/e9d30baa-8c45-4072-8bb8-f06fd35ef13e"
-      (reference "SW3") (unit 1) (value "SW_Push") (footprint "")
+      (reference "SW3") (unit 1) (value "SW_UP") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/28d134bc-c5d7-4cab-8838-43f79c8e84c2"
-      (reference "SW4") (unit 1) (value "SW_Push") (footprint "")
+      (reference "SW4") (unit 1) (value "SW_RIGHT") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/32bba286-bff4-4265-9a76-ec016ae41e48"
-      (reference "SW5") (unit 1) (value "SW_Push") (footprint "")
+      (reference "SW5") (unit 1) (value "SW_DOWN") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/88da4db8-5809-444d-87dc-17d23ddac8b9"
-      (reference "SW6") (unit 1) (value "SW_Push") (footprint "")
+      (reference "SW6") (unit 1) (value "SW_LEFT") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/eecc3b67-af5c-410e-a5d4-3ec9c9e43b2e"
-      (reference "SW7") (unit 1) (value "SW_Push") (footprint "")
+      (reference "SW7") (unit 1) (value "SW_ENTER") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/00000000-0000-0000-0000-00006235185d/00000000-0000-0000-0000-00006237f70d"
       (reference "U1") (unit 1) (value "AT24C256C") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
@@ -5524,6 +5537,12 @@
     )
     (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/d0fed5ee-9b4e-4ebb-afb4-30f3a2772c3a"
       (reference "U4") (unit 2) (value "LAN7500-ABJZ") (footprint "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP5.9x5.9mm")
+    )
+    (path "/6ffbc1e3-3d51-4c6a-a646-f90b31d0a3d6/75b7c5ab-6c48-4f28-bc0e-1be7dece74ff"
+      (reference "U5") (unit 1) (value "UA9638CP") (footprint "Package_DIP:DIP-8_W7.62mm")
+    )
+    (path "/6ffbc1e3-3d51-4c6a-a646-f90b31d0a3d6/5c71701c-c71f-49d8-9a5e-6089446da068"
+      (reference "U5") (unit 2) (value "UA9638CP") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
   )
 )

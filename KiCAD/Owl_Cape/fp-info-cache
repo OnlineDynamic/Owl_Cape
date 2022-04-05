@@ -1,4 +1,4 @@
-20172464269096436
+20174114103099431
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -78644,6 +78644,13 @@ Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+QFN40P800X800X90-65N
+QFN88-64LD-PL-2
+Integrated Circuit
+0
+65
+65
 SamacSys_Parts
 RASPBERRYPIZEROWV13
 Raspberry Pi Zero W (v1.3)_1

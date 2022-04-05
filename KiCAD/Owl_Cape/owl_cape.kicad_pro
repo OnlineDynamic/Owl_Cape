@@ -333,7 +333,9 @@
     "pinned_footprint_libs": [
       "Stuart_BESPOKE"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Stuarts_BESPOKE"
+    ]
   },
   "meta": {
     "filename": "owl_cape.kicad_pro",
