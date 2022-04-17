@@ -240,13 +240,13 @@ Code:
    50: 50
    60: 
    70:
-
+```
 
 Next, you can now upload it to your EEPROM :
 
 Code:
 ```bash
-sudo ./eepflash -w -d=9 -f=blank.eep -t=24c256
+sudo ./eepflash.sh -w -d=9 -f=blank.eep -t=24c256
 ```
 
 Answer yes, and before hitting enter, do a ground connection to test point (see design guide recommendation), who remove read-only flag. Then, press enter and wait without moving this ground connection!
