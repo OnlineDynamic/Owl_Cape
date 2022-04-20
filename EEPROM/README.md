@@ -348,8 +348,8 @@ Then, blank the eeprom and upload it (don't forget to ground the test point to d
 
 Code:
 ```bash
-sudo ./eepflash -w -f=blank.eep -t=24c256
-sudo ./eepflash -w -f=myhat-with-dt.eep -t=24c256
+sudo ./eepflash.sh -w -f=blank.eep -t=24c256
+sudo ./eepflash.sh -w -f=myhat-with-dt.eep -t=24c256
 ```
 
 And finally, consistency checking by viewing both original file and eeprom dump :

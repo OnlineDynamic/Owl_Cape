@@ -5146,9 +5146,6 @@
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-00006264aa53"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:CP_Elec_4x5.3")
     )
-    (path "/00000000-0000-0000-0000-00006235185d/00000000-0000-0000-0000-00006237f6ec"
-      (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:CP_Elec_4x5.3")
-    )
     (path "/00000000-0000-0000-0000-00006256a6bf/00000000-0000-0000-0000-000062393073"
       (reference "C3") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:CP_Elec_4x5.3")
     )
