@@ -6,7 +6,7 @@ Customised from https://forums.raspberrypi.com/viewtopic.php?t=108134
 
 As it is hard to find good quality information EEPROM for HATs, and after some struggling I have found the post above but it too had issues and seemed out of date, so I decided to write this file to create a set of instructions for myself to use with the 'Owl Cape' project but have tried to leave in lots of description to help others more generically. 
 
-In this project I'm using a Amtel AT24C256 (32,768 x 8) to meet FPP[^5]. spec but typically the standard Pi hat spec talks about using its smaller brother the AT24C32 (4,096 x 8)
+In this project I'm using a Amtel AT24C256 (32,768 x 8 bits (256k bits or 32kB)) (https://ww1.microchip.com/downloads/en/DeviceDoc/doc0670.pdf) to meet FPP[^5]. spec but typically the standard Pi hat spec talks about using its smaller brother the AT24C32 (4,096 x 8)
 
 This process should work for:
 - 24c32

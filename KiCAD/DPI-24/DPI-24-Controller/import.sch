@@ -1,0 +1,573 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Screw_Terminal_01x02 J22
+U 1 1 600E5475
+P 1850 1850
+F 0 "J22" H 1930 1842 50  0000 L CNN
+F 1 "9-16 In" H 1930 1751 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 1850 1850 50  0001 C CNN
+F 3 "~" H 1850 1850 50  0001 C CNN
+	1    1850 1850
+	1    0    0    1   
+$EndComp
+Text GLabel 750  750  0    50   Input ~ 0
+V1
+Text GLabel 750  1750 0    50   Input ~ 0
+V2
+$Comp
+L power:GND #PWR061
+U 1 1 600E67A6
+P 1750 850
+F 0 "#PWR061" H 1750 600 50  0001 C CNN
+F 1 "GND" H 1755 677 50  0000 C CNN
+F 2 "" H 1750 850 50  0001 C CNN
+F 3 "" H 1750 850 50  0001 C CNN
+	1    1750 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR060
+U 1 1 600E6E79
+P 1650 1850
+F 0 "#PWR060" H 1650 1600 50  0001 C CNN
+F 1 "GND" H 1655 1677 50  0000 C CNN
+F 2 "" H 1650 1850 50  0001 C CNN
+F 3 "" H 1650 1850 50  0001 C CNN
+	1    1650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR062
+U 1 1 601048B7
+P 2400 1350
+F 0 "#PWR062" H 2400 1100 50  0001 C CNN
+F 1 "GND" H 2405 1177 50  0000 C CNN
+F 2 "" H 2400 1350 50  0001 C CNN
+F 3 "" H 2400 1350 50  0001 C CNN
+	1    2400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR063
+U 1 1 60105B0F
+P 2400 2350
+F 0 "#PWR063" H 2400 2100 50  0001 C CNN
+F 1 "GND" H 2405 2177 50  0000 C CNN
+F 2 "" H 2400 2350 50  0001 C CNN
+F 3 "" H 2400 2350 50  0001 C CNN
+	1    2400 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 850  1    50   Input ~ 0
+VIN1
+Text GLabel 2400 1850 1    50   Input ~ 0
+VIN2
+$Comp
+L Device:LED D17
+U 1 1 60107B8A
+P 2400 1000
+F 0 "D17" V 2439 882 50  0000 R CNN
+F 1 "V1 LED" V 2348 882 50  0000 R CNN
+F 2 "3544again:LED_0603_1608Metric" H 2400 1000 50  0001 C CNN
+F 3 "Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 2400 1000 50  0001 C CNN
+F 4 "C72043" H 2400 1000 50  0001 C CNN "Description"
+	1    2400 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D18
+U 1 1 601088D7
+P 2400 2200
+F 0 "D18" V 2439 2082 50  0000 R CNN
+F 1 "V2 LED" V 2348 2082 50  0000 R CNN
+F 2 "3544again:LED_0603_1608Metric" H 2400 2200 50  0001 C CNN
+F 3 "Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 2400 2200 50  0001 C CNN
+F 4 "C72043" H 2400 2200 50  0001 C CNN "Description"
+	1    2400 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R29
+U 1 1 6010D978
+P 2400 1250
+F 0 "R29" H 2459 1296 50  0000 L CNN
+F 1 "4.7k" H 2459 1205 50  0000 L CNN
+F 2 "3544again:R_0805_2012Metric" H 2400 1250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 2400 1250 50  0001 C CNN
+F 4 "C17673" H 2400 1250 50  0001 C CNN "Description"
+	1    2400 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R30
+U 1 1 6010E76E
+P 2400 1950
+F 0 "R30" H 2459 1996 50  0000 L CNN
+F 1 "4.7k" H 2459 1905 50  0000 L CNN
+F 2 "3544again:R_0805_2012Metric" H 2400 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 2400 1950 50  0001 C CNN
+F 4 "C17673" H 2400 1950 50  0001 C CNN "Description"
+	1    2400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR067
+U 1 1 601167CA
+P 2950 2150
+F 0 "#PWR067" H 2950 1900 50  0001 C CNN
+F 1 "GND" H 2955 1977 50  0000 C CNN
+F 2 "" H 2950 2150 50  0001 C CNN
+F 3 "" H 2950 2150 50  0001 C CNN
+	1    2950 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 2950 850  1    50   Input ~ 0
+VIN1
+Text GLabel 2950 1850 1    50   Input ~ 0
+VIN2
+$Comp
+L Device:D_Schottky D20
+U 1 1 60117367
+P 2950 1000
+F 0 "D20" V 2904 1080 50  0000 L CNN
+F 1 "SB5100" V 2995 1080 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P12.70mm_Horizontal" H 2950 1000 50  0001 C CNN
+F 3 "~" H 2950 1000 50  0001 C CNN
+F 4 "" H 2950 1000 50  0001 C CNN "Description"
+	1    2950 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D21
+U 1 1 6011835F
+P 2950 2000
+F 0 "D21" V 2904 2080 50  0000 L CNN
+F 1 "SB5100" V 2995 2080 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P12.70mm_Horizontal" H 2950 2000 50  0001 C CNN
+F 3 "~" H 2950 2000 50  0001 C CNN
+F 4 "" H 2950 2000 50  0001 C CNN "Description"
+	1    2950 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR066
+U 1 1 601167C4
+P 2950 1150
+F 0 "#PWR066" H 2950 900 50  0001 C CNN
+F 1 "GND" H 2955 977 50  0000 C CNN
+F 2 "" H 2950 1150 50  0001 C CNN
+F 3 "" H 2950 1150 50  0001 C CNN
+	1    2950 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 6012EDE9
+P 5100 1300
+F 0 "SW1" V 5146 1212 50  0000 R CNN
+F 1 "Enter BTN" V 5055 1212 50  0000 R CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5100 1300 50  0001 C CNN
+F 3 "~" H 5100 1300 50  0001 C CNN
+	1    5100 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 6012FA11
+P 5700 1300
+F 0 "SW2" V 5746 1212 50  0000 R CNN
+F 1 "Down BTN" V 5655 1212 50  0000 R CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5700 1300 50  0001 C CNN
+F 3 "~" H 5700 1300 50  0001 C CNN
+	1    5700 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR073
+U 1 1 601319CB
+P 5100 1500
+F 0 "#PWR073" H 5100 1250 50  0001 C CNN
+F 1 "GND" H 5105 1327 50  0000 C CNN
+F 2 "" H 5100 1500 50  0001 C CNN
+F 3 "" H 5100 1500 50  0001 C CNN
+	1    5100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR074
+U 1 1 60131AEE
+P 5700 1500
+F 0 "#PWR074" H 5700 1250 50  0001 C CNN
+F 1 "GND" H 5705 1327 50  0000 C CNN
+F 2 "" H 5700 1500 50  0001 C CNN
+F 3 "" H 5700 1500 50  0001 C CNN
+	1    5700 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5100 1100 1    50   Input ~ 0
+BTN1
+Text GLabel 5700 1100 1    50   Input ~ 0
+BTN2
+$Comp
+L Device:D_Zener D23
+U 1 1 60129B68
+P 3450 4000
+F 0 "D23" V 3404 4080 50  0000 L CNN
+F 1 "Zenner 5.1" V 3495 4080 50  0000 L CNN
+F 2 "Diode_THT:D_5W_P10.16mm_Horizontal" H 3450 4000 50  0001 C CNN
+F 3 "~" H 3450 4000 50  0001 C CNN
+F 4 "" H 3450 4000 50  0001 C CNN "Description"
+	1    3450 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR070
+U 1 1 6012938B
+P 3450 3850
+F 0 "#PWR070" H 3450 3700 50  0001 C CNN
+F 1 "+5V" H 3465 4023 50  0000 C CNN
+F 2 "" H 3450 3850 50  0001 C CNN
+F 3 "" H 3450 3850 50  0001 C CNN
+	1    3450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR071
+U 1 1 60129385
+P 3450 4150
+F 0 "#PWR071" H 3450 3900 50  0001 C CNN
+F 1 "GND" H 3455 3977 50  0000 C CNN
+F 2 "" H 3450 4150 50  0001 C CNN
+F 3 "" H 3450 4150 50  0001 C CNN
+	1    3450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R31
+U 1 1 6010E99B
+P 2400 3950
+F 0 "R31" H 2459 3996 50  0000 L CNN
+F 1 "4.7k" H 2459 3905 50  0000 L CNN
+F 2 "3544again:R_0805_2012Metric" H 2400 3950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf" H 2400 3950 50  0001 C CNN
+F 4 "C17673" H 2400 3950 50  0001 C CNN "Description"
+	1    2400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D19
+U 1 1 601089C5
+P 2400 4200
+F 0 "D19" V 2439 4082 50  0000 R CNN
+F 1 "5V LED" V 2348 4082 50  0000 R CNN
+F 2 "3544again:LED_0603_1608Metric" H 2400 4200 50  0001 C CNN
+F 3 "Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 2400 4200 50  0001 C CNN
+F 4 "C72043" H 2400 4200 50  0001 C CNN "Description"
+	1    2400 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR064
+U 1 1 60106F42
+P 2400 3850
+F 0 "#PWR064" H 2400 3700 50  0001 C CNN
+F 1 "+5V" H 2415 4023 50  0000 C CNN
+F 2 "" H 2400 3850 50  0001 C CNN
+F 3 "" H 2400 3850 50  0001 C CNN
+	1    2400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR065
+U 1 1 60105CE7
+P 2400 4350
+F 0 "#PWR065" H 2400 4100 50  0001 C CNN
+F 1 "GND" H 2405 4177 50  0000 C CNN
+F 2 "" H 2400 4350 50  0001 C CNN
+F 3 "" H 2400 4350 50  0001 C CNN
+	1    2400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR059
+U 1 1 600F5939
+P 1550 3950
+F 0 "#PWR059" H 1550 3700 50  0001 C CNN
+F 1 "GND" H 1555 3777 50  0000 C CNN
+F 2 "" H 1550 3950 50  0001 C CNN
+F 3 "" H 1550 3950 50  0001 C CNN
+	1    1550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J19
+U 1 1 602DD954
+P 1050 1050
+F 0 "J19" V 1000 1050 50  0000 R CNN
+F 1 "VIN1_V" V 900 1100 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1050 1050 50  0001 C CNN
+F 3 "~" H 1050 1050 50  0001 C CNN
+	1    1050 1050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	750  750  950  750 
+Wire Wire Line
+	950  750  950  850 
+$Comp
+L Connector:Conn_01x02_Male J20
+U 1 1 602EA3C3
+P 1050 2050
+F 0 "J20" V 1000 2050 50  0000 R CNN
+F 1 "VIN2_V" V 900 2100 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1050 2050 50  0001 C CNN
+F 3 "~" H 1050 2050 50  0001 C CNN
+	1    1050 2050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60440E2F
+P 6500 900
+F 0 "H5" H 6600 946 50  0000 L CNN
+F 1 "MountingHole" H 6600 855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 6500 900 50  0001 C CNN
+F 3 "~" H 6500 900 50  0001 C CNN
+	1    6500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 60442521
+P 6500 1100
+F 0 "H6" H 6600 1146 50  0000 L CNN
+F 1 "MountingHole" H 6600 1055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 6500 1100 50  0001 C CNN
+F 3 "~" H 6500 1100 50  0001 C CNN
+	1    6500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 60442730
+P 6500 1300
+F 0 "H7" H 6600 1346 50  0000 L CNN
+F 1 "MountingHole" H 6600 1255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 6500 1300 50  0001 C CNN
+F 3 "~" H 6500 1300 50  0001 C CNN
+	1    6500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 60442929
+P 6500 1500
+F 0 "H8" H 6600 1546 50  0000 L CNN
+F 1 "MountingHole" H 6600 1455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 6500 1500 50  0001 C CNN
+F 3 "~" H 6500 1500 50  0001 C CNN
+	1    6500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 60445193
+P 7300 900
+F 0 "H9" H 7400 946 50  0000 L CNN
+F 1 "MountingHole" H 7400 855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 7300 900 50  0001 C CNN
+F 3 "~" H 7300 900 50  0001 C CNN
+	1    7300 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 60445199
+P 7300 1100
+F 0 "H10" H 7400 1146 50  0000 L CNN
+F 1 "MountingHole" H 7400 1055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 7300 1100 50  0001 C CNN
+F 3 "~" H 7300 1100 50  0001 C CNN
+	1    7300 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 950  750 
+Wire Wire Line
+	1050 850  1750 850 
+$Comp
+L power:+5V #PWR058
+U 1 1 600F4BDE
+P 800 3850
+F 0 "#PWR058" H 800 3700 50  0001 C CNN
+F 1 "+5V" V 815 3978 50  0000 L CNN
+F 2 "" H 800 3850 50  0001 C CNN
+F 3 "" H 800 3850 50  0001 C CNN
+	1    800  3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse F17
+U 1 1 601404BC
+P 950 3850
+F 0 "F17" V 753 3850 50  0000 C CNN
+F 1 "2A Max" V 844 3850 50  0000 C CNN
+F 2 "3544again:3544-2" V 880 3850 50  0001 C CNN
+F 3 "~" H 950 3850 50  0001 C CNN
+	1    950  3850
+	0    1    1    0   
+$EndComp
+Text GLabel 1550 3850 0    50   Input ~ 0
+Aux_In
+Text GLabel 1100 3850 2    50   Input ~ 0
+V5
+Wire Wire Line
+	1050 1850 1650 1850
+Wire Wire Line
+	950  1850 950  1750
+Wire Wire Line
+	750  1750 950  1750
+Connection ~ 950  1750
+Wire Wire Line
+	950  750  1750 750 
+Wire Wire Line
+	950  1750 1650 1750
+Connection ~ 1650 1850
+$Comp
+L power:GND #PWR069
+U 1 1 601327AA
+P 2950 4150
+F 0 "#PWR069" H 2950 3900 50  0001 C CNN
+F 1 "GND" H 2955 3977 50  0000 C CNN
+F 2 "" H 2950 4150 50  0001 C CNN
+F 3 "" H 2950 4150 50  0001 C CNN
+	1    2950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR068
+U 1 1 6013325A
+P 2950 3850
+F 0 "#PWR068" H 2950 3700 50  0001 C CNN
+F 1 "+5V" H 2965 4023 50  0000 C CNN
+F 2 "" H 2950 3850 50  0001 C CNN
+F 3 "" H 2950 3850 50  0001 C CNN
+	1    2950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J21
+U 1 1 601E7A32
+P 1750 3950
+F 0 "J21" H 1830 3942 50  0000 L CNN
+F 1 "Aux In" H 1830 3851 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 1750 3950 50  0001 C CNN
+F 3 "~" H 1750 3950 50  0001 C CNN
+	1    1750 3950
+	1    0    0    1   
+$EndComp
+Text GLabel 6100 4150 2    50   Input ~ 0
+Buck
+$Comp
+L power:GND #PWR075
+U 1 1 602DB4D0
+P 6100 4350
+F 0 "#PWR075" H 6100 4100 50  0001 C CNN
+F 1 "GND" H 6105 4177 50  0000 C CNN
+F 2 "" H 6100 4350 50  0001 C CNN
+F 3 "" H 6100 4350 50  0001 C CNN
+	1    6100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D22
+U 1 1 601327B1
+P 2950 4000
+F 0 "D22" V 2904 4080 50  0000 L CNN
+F 1 "SB5100" V 2995 4080 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P12.70mm_Horizontal" H 2950 4000 50  0001 C CNN
+F 3 "~" H 2950 4000 50  0001 C CNN
+F 4 "" H 2950 4000 50  0001 C CNN "Description"
+	1    2950 4000
+	0    1    1    0   
+$EndComp
+Text GLabel 4800 4150 0    50   Input ~ 0
+Aux_In
+$Comp
+L Mirage-rescue:MP1584-MP1584 U2
+U 1 1 6057B19B
+P 5400 4250
+F 0 "U2" H 5400 4250 50  0001 L BNN
+F 1 "MP1584" H 5400 4250 50  0001 L BNN
+F 2 "DC-BRICK" H 5400 4250 50  0001 L BNN
+F 3 "" H 5400 4250 50  0001 L BNN
+	1    5400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR072
+U 1 1 6057C09A
+P 4800 4350
+F 0 "#PWR072" H 4800 4100 50  0001 C CNN
+F 1 "GND" H 4805 4177 50  0000 C CNN
+F 2 "" H 4800 4350 50  0001 C CNN
+F 3 "" H 4800 4350 50  0001 C CNN
+	1    4800 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3450 850  1    50   Input ~ 0
+VIN1
+$Comp
+L Device:Fuse F18
+U 1 1 606A2ECB
+P 3450 1000
+F 0 "F18" V 3253 1000 50  0000 C CNN
+F 1 "30A Max" V 3344 1000 50  0000 C CNN
+F 2 "3544again:3544-2" V 3380 1000 50  0001 C CNN
+F 3 "~" H 3450 1000 50  0001 C CNN
+	1    3450 1000
+	-1   0    0    1   
+$EndComp
+Text GLabel 3450 1150 3    50   Input ~ 0
+V1
+Text GLabel 3450 1850 1    50   Input ~ 0
+VIN2
+$Comp
+L Device:Fuse F19
+U 1 1 606A5080
+P 3450 2000
+F 0 "F19" V 3253 2000 50  0000 C CNN
+F 1 "30A Max" V 3344 2000 50  0000 C CNN
+F 2 "3544again:3544-2" V 3380 2000 50  0001 C CNN
+F 3 "~" H 3450 2000 50  0001 C CNN
+	1    3450 2000
+	-1   0    0    1   
+$EndComp
+Text GLabel 3450 2150 3    50   Input ~ 0
+V2
+Connection ~ 1750 850 
+$Comp
+L Connector:Screw_Terminal_01x02 J23
+U 1 1 600E4B71
+P 1950 850
+F 0 "J23" H 2030 842 50  0000 L CNN
+F 1 "1-8 In" H 2030 751 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 1950 850 50  0001 C CNN
+F 3 "~" H 1950 850 50  0001 C CNN
+	1    1950 850 
+	1    0    0    1   
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,4134 @@
+(export 
+  (version D) 
+  (design 
+    (source "D:\\Documents\\1. Online Dynamic\\Git Repositories\\Owl_Cape\\KiCAD\\Owl_Cape\\owl_cape.sch") 
+    (date "25/03/2022 16:16:00") 
+    (tool "Eeschema (5.1.9)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title "The Owl - RPI Cape 16ch Pixel Controller") 
+        (company OnlineDynamic) 
+        (rev) 
+        (date) 
+        (source DPI-24-Controller.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value "")))) 
+    (sheet 
+      (number 2) 
+      (name /outports1-8/) 
+      (tstamps /6243DD0B/) 
+      (title_block 
+        (title "The Owl - RPI Cape 16ch Pixel Controller") 
+        (company OnlineDynamic) 
+        (rev) 
+        (date) 
+        (source out-ports1-8.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value "")))) 
+    (sheet 
+      (number 3) 
+      (name /outports9-16/) 
+      (tstamps /6256A6BF/) 
+      (title_block 
+        (title "The Owl - RPI Cape 16ch Pixel Controller") 
+        (company OnlineDynamic) 
+        (rev) 
+        (date) 
+        (source outports9-16.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value "")))) 
+    (sheet 
+      (number 4) 
+      (name /standard-hat-components/) 
+      (tstamps /6235185D/) 
+      (title_block 
+        (title "The Owl - RPI Cape 16ch Pixel Controller") 
+        (company OnlineDynamic) 
+        (rev) 
+        (date) 
+        (source standard-hat-components.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value "")))) 
+    (sheet 
+      (number 5) 
+      (name /power/) 
+      (tstamps /6235D74F/) 
+      (title_block 
+        (title "The Owl - RPI Cape 16ch Pixel Controller") 
+        (company OnlineDynamic) 
+        (rev) 
+        (date) 
+        (source power.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref J30) 
+      (value Conn_02x20_Odd_Even_MountingPin) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical_SMD) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic_MountingPin) 
+        (part Conn_02x20_Odd_Even_MountingPin) 
+        (description "Generic connectable mounting pin connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62324F52)) 
+    (comp 
+      (ref F1) 
+      (value P1) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448C60)) 
+    (comp 
+      (ref F2) 
+      (value P2) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448C73)) 
+    (comp 
+      (ref F3) 
+      (value P3) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448C86)) 
+    (comp 
+      (ref F4) 
+      (value P4) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448C99)) 
+    (comp 
+      (ref F5) 
+      (value P5) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448CAC)) 
+    (comp 
+      (ref F6) 
+      (value P6) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448CBF)) 
+    (comp 
+      (ref F7) 
+      (value P7) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448CD2)) 
+    (comp 
+      (ref F8) 
+      (value P8) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448CE5)) 
+    (comp 
+      (ref D8) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448CF2)) 
+    (comp 
+      (ref R16) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D01)) 
+    (comp 
+      (ref D7) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D08)) 
+    (comp 
+      (ref R15) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D16)) 
+    (comp 
+      (ref D6) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D1D)) 
+    (comp 
+      (ref R14) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D2B)) 
+    (comp 
+      (ref D5) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D32)) 
+    (comp 
+      (ref R13) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D40)) 
+    (comp 
+      (ref D4) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D47)) 
+    (comp 
+      (ref R12) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D55)) 
+    (comp 
+      (ref D3) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D5C)) 
+    (comp 
+      (ref R11) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D6A)) 
+    (comp 
+      (ref D2) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D71)) 
+    (comp 
+      (ref R10) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D7F)) 
+    (comp 
+      (ref D1) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D86)) 
+    (comp 
+      (ref R9) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62448D94)) 
+    (comp 
+      (ref J1) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 625A5B8C)) 
+    (comp 
+      (ref IC1) 
+      (value SN74HC244N) 
+      (footprint SamacSys_Parts:DIP794W53P254L2540H508Q20N) 
+      (datasheet http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc244) 
+      (fields 
+        (field 
+          (name Description) "Octal Buffers And Line Drivers With 3-State Outputs") 
+        (field 
+          (name Height) 5.08) 
+        (field 
+          (name Manufacturer_Name) "Texas Instruments") 
+        (field 
+          (name Manufacturer_Part_Number) SN74HC244N) 
+        (field 
+          (name "Mouser Part Number") 595-SN74HC244N) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HC244N?qs=N6WZOzgtpqVj86wWMB9mFg%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part SN74HC244N) 
+        (description "Octal Buffers And Line Drivers With 3-State Outputs")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 625F1808)) 
+    (comp 
+      (ref R1) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 626344BA)) 
+    (comp 
+      (ref R2) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62637B76)) 
+    (comp 
+      (ref R3) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62638230)) 
+    (comp 
+      (ref R4) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62638996)) 
+    (comp 
+      (ref R5) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62639052)) 
+    (comp 
+      (ref R6) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 626397D8)) 
+    (comp 
+      (ref R7) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 6263A0F6)) 
+    (comp 
+      (ref R8) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 6263C60F)) 
+    (comp 
+      (ref C1) 
+      (value 0.1uF) 
+      (footprint Capacitor_SMD:CP_Elec_4x5.3) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 6264AA53)) 
+    (comp 
+      (ref J2) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62358FAE)) 
+    (comp 
+      (ref J3) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 6235B198)) 
+    (comp 
+      (ref J4) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 6235D1FC)) 
+    (comp 
+      (ref J5) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 6235F3C5)) 
+    (comp 
+      (ref J6) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 62361444)) 
+    (comp 
+      (ref J7) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 623632E5)) 
+    (comp 
+      (ref J8) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports1-8/) 
+        (tstamps /6243DD0B/)) 
+      (tstamp 6236529D)) 
+    (comp 
+      (ref F9) 
+      (value P1) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392ED7)) 
+    (comp 
+      (ref F10) 
+      (value P2) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392EE4)) 
+    (comp 
+      (ref F11) 
+      (value P3) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392EF1)) 
+    (comp 
+      (ref F12) 
+      (value P4) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392EFE)) 
+    (comp 
+      (ref F13) 
+      (value P5) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F0B)) 
+    (comp 
+      (ref F14) 
+      (value P6) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F18)) 
+    (comp 
+      (ref F15) 
+      (value P7) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F25)) 
+    (comp 
+      (ref F16) 
+      (value P8) 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F32)) 
+    (comp 
+      (ref D16) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F39)) 
+    (comp 
+      (ref R39) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F47)) 
+    (comp 
+      (ref D15) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F4E)) 
+    (comp 
+      (ref R38) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F5C)) 
+    (comp 
+      (ref D14) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F63)) 
+    (comp 
+      (ref R37) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F71)) 
+    (comp 
+      (ref D13) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F78)) 
+    (comp 
+      (ref R36) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F86)) 
+    (comp 
+      (ref D12) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F8D)) 
+    (comp 
+      (ref R35) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392F9B)) 
+    (comp 
+      (ref D11) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392FA2)) 
+    (comp 
+      (ref R34) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392FB0)) 
+    (comp 
+      (ref D10) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392FB7)) 
+    (comp 
+      (ref R33) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392FC5)) 
+    (comp 
+      (ref D9) 
+      (value 387) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392FCC)) 
+    (comp 
+      (ref R32) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392FDA)) 
+    (comp 
+      (ref J9) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62392FF2)) 
+    (comp 
+      (ref IC2) 
+      (value SN74HC244N) 
+      (footprint SamacSys_Parts:DIP794W53P254L2540H508Q20N) 
+      (datasheet http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc244) 
+      (fields 
+        (field 
+          (name Description) "Octal Buffers And Line Drivers With 3-State Outputs") 
+        (field 
+          (name Height) 5.08) 
+        (field 
+          (name Manufacturer_Name) "Texas Instruments") 
+        (field 
+          (name Manufacturer_Part_Number) SN74HC244N) 
+        (field 
+          (name "Mouser Part Number") 595-SN74HC244N) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HC244N?qs=N6WZOzgtpqVj86wWMB9mFg%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part SN74HC244N) 
+        (description "Octal Buffers And Line Drivers With 3-State Outputs")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 6239300A)) 
+    (comp 
+      (ref R17) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 6239303A)) 
+    (comp 
+      (ref R18) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62393041)) 
+    (comp 
+      (ref R19) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62393048)) 
+    (comp 
+      (ref R20) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 6239304F)) 
+    (comp 
+      (ref R21) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62393056)) 
+    (comp 
+      (ref R22) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 6239305D)) 
+    (comp 
+      (ref R23) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62393064)) 
+    (comp 
+      (ref R24) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 6239306B)) 
+    (comp 
+      (ref C3) 
+      (value 0.1uF) 
+      (footprint Capacitor_SMD:CP_Elec_4x5.3) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62393073)) 
+    (comp 
+      (ref J10) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62393086)) 
+    (comp 
+      (ref J11) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 62393093)) 
+    (comp 
+      (ref J12) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 623930A0)) 
+    (comp 
+      (ref J13) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 623930AD)) 
+    (comp 
+      (ref J14) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 623930BA)) 
+    (comp 
+      (ref J15) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 623930C7)) 
+    (comp 
+      (ref J16) 
+      (value "G D V") 
+      (footprint SamacSys_Parts:SHDR3W80P0X350_1X3_1250X725X940P) 
+      (datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D)) 
+      (libsource 
+        (lib SamacSys_Parts) 
+        (part 284514-3) 
+        (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header")) 
+      (sheetpath 
+        (names /outports9-16/) 
+        (tstamps /6256A6BF/)) 
+      (tstamp 623930D4)) 
+    (comp 
+      (ref Q2) 
+      (value DMG2302U) 
+      (footprint Package_TO_SOT_SMD:SOT-23) 
+      (datasheet http://www.diodes.com/assets/Datasheets/DMG2302U.pdf) 
+      (libsource 
+        (lib Transistor_FET) 
+        (part DMG2302U) 
+        (description "4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 62390BBB)) 
+    (comp 
+      (ref Q1) 
+      (value MMDT5401) 
+      (footprint Package_TO_SOT_SMD:SOT-363_SC-70-6) 
+      (datasheet http://www.diodes.com/_files/datasheets/ds30169.pdf) 
+      (libsource 
+        (lib Transistor_BJT) 
+        (part MMDT5401) 
+        (description "200mA IC, 160V Vce, Dual PNP/PNP Transistors, SOT-363")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 623A65E4)) 
+    (comp 
+      (ref C2) 
+      (value 0.1uF) 
+      (footprint Capacitor_SMD:CP_Elec_4x5.3) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf) 
+      (fields 
+        (field 
+          (name Description) C49678)) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 6237F6EC)) 
+    (comp 
+      (ref R26) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 6237F6F3)) 
+    (comp 
+      (ref R25) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 6237F6FA)) 
+    (comp 
+      (ref U1) 
+      (value AT24C256C) 
+      (footprint Package_SO:SOIC-8_3.9x4.9mm_P1.27mm) 
+      (datasheet https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF) 
+      (fields 
+        (field 
+          (name Description) C6482)) 
+      (libsource 
+        (lib Memory_EEPROM) 
+        (part CAT24C256) 
+        (description "256 kb CMOS Serial EEPROM, DIP-8/SOIC-8/TSSOP-8/DFN-8")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 6237F70D)) 
+    (comp 
+      (ref H5) 
+      (value "M3 MountingHole") 
+      (footprint MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 623545E3)) 
+    (comp 
+      (ref H6) 
+      (value "M3 MountingHole") 
+      (footprint MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 623545E9)) 
+    (comp 
+      (ref H7) 
+      (value "M3 MountingHole") 
+      (footprint MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 623545EF)) 
+    (comp 
+      (ref H8) 
+      (value "M3 MountingHole") 
+      (footprint MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 623545F5)) 
+    (comp 
+      (ref H9) 
+      (value "M3 MountingHole") 
+      (footprint MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 623545FB)) 
+    (comp 
+      (ref H10) 
+      (value "M3 MountingHole") 
+      (footprint MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 62354601)) 
+    (comp 
+      (ref R28) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 6237BD5B)) 
+    (comp 
+      (ref R27) 
+      (value 10k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /standard-hat-components/) 
+        (tstamps /6235185D/)) 
+      (tstamp 62380363)) 
+    (comp 
+      (ref J22) 
+      (value "9-16 In") 
+      (footprint TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x02) 
+        (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 600E5475)) 
+    (comp 
+      (ref D17) 
+      (value "V1 LED") 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 60107B8A)) 
+    (comp 
+      (ref D18) 
+      (value "V2 LED") 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 601088D7)) 
+    (comp 
+      (ref R29) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 6010D978)) 
+    (comp 
+      (ref R30) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 6010E76E)) 
+    (comp 
+      (ref D20) 
+      (value SB5100) 
+      (footprint Diode_THT:D_DO-201AD_P12.70mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D_Schottky) 
+        (description "Schottky diode")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 60117367)) 
+    (comp 
+      (ref D21) 
+      (value SB5100) 
+      (footprint Diode_THT:D_DO-201AD_P12.70mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D_Schottky) 
+        (description "Schottky diode")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 6011835F)) 
+    (comp 
+      (ref SW1) 
+      (value "Enter BTN") 
+      (footprint Button_Switch_THT:SW_PUSH_6mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Switch) 
+        (part SW_SPST) 
+        (description "Single Pole Single Throw (SPST) switch")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 6012EDE9)) 
+    (comp 
+      (ref SW2) 
+      (value "Down BTN") 
+      (footprint Button_Switch_THT:SW_PUSH_6mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Switch) 
+        (part SW_SPST) 
+        (description "Single Pole Single Throw (SPST) switch")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 6012FA11)) 
+    (comp 
+      (ref D23) 
+      (value "Zenner 5.1") 
+      (footprint Diode_THT:D_5W_P10.16mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D_Zener) 
+        (description "Zener diode")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 60129B68)) 
+    (comp 
+      (ref R31) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0805_2012Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2201T5E_C17520.pdf) 
+      (fields 
+        (field 
+          (name Description) C17673)) 
+      (libsource 
+        (lib Device) 
+        (part R_Small) 
+        (description "Resistor, small symbol")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 6010E99B)) 
+    (comp 
+      (ref D19) 
+      (value "5V LED") 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf) 
+      (fields 
+        (field 
+          (name Description) C72043)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 601089C5)) 
+    (comp 
+      (ref F17) 
+      (value "2A Max") 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 601404BC)) 
+    (comp 
+      (ref J21) 
+      (value "Aux In") 
+      (footprint TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x02) 
+        (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 601E7A32)) 
+    (comp 
+      (ref D22) 
+      (value SB5100) 
+      (footprint Diode_THT:D_DO-201AD_P12.70mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D_Schottky) 
+        (description "Schottky diode")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 601327B1)) 
+    (comp 
+      (ref U2) 
+      (value MP1584) 
+      (footprint DC-BRICK) 
+      (libsource 
+        (lib Mirage-rescue) 
+        (part MP1584-MP1584) 
+        (description "")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 6057B19B)) 
+    (comp 
+      (ref F18) 
+      (value "30A Max") 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 606A2ECB)) 
+    (comp 
+      (ref F19) 
+      (value "30A Max") 
+      (footprint Fuse:Fuseholder_Blade_Mini_Keystone_3568) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Fuse) 
+        (description Fuse)) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 606A5080)) 
+    (comp 
+      (ref J23) 
+      (value "1-8 In") 
+      (footprint TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x02) 
+        (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /power/) 
+        (tstamps /6235D74F/)) 
+      (tstamp 600E4B71))) 
+  (libparts 
+    (libpart 
+      (lib Connector) 
+      (part Screw_Terminal_01x02) 
+      (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp TerminalBlock*:*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Screw_Terminal_01x02)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic_MountingPin) 
+      (part Conn_02x20_Odd_Even_MountingPin) 
+      (description "Generic connectable mounting pin connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_2x??-1MP*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_02x20_Odd_Even_MountingPin)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name Pin_7) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name Pin_8) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name Pin_9) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name Pin_10) 
+          (type passive)) 
+        (pin 
+          (num 11) 
+          (name Pin_11) 
+          (type passive)) 
+        (pin 
+          (num 12) 
+          (name Pin_12) 
+          (type passive)) 
+        (pin 
+          (num 13) 
+          (name Pin_13) 
+          (type passive)) 
+        (pin 
+          (num 14) 
+          (name Pin_14) 
+          (type passive)) 
+        (pin 
+          (num 15) 
+          (name Pin_15) 
+          (type passive)) 
+        (pin 
+          (num 16) 
+          (name Pin_16) 
+          (type passive)) 
+        (pin 
+          (num 17) 
+          (name Pin_17) 
+          (type passive)) 
+        (pin 
+          (num 18) 
+          (name Pin_18) 
+          (type passive)) 
+        (pin 
+          (num 19) 
+          (name Pin_19) 
+          (type passive)) 
+        (pin 
+          (num 20) 
+          (name Pin_20) 
+          (type passive)) 
+        (pin 
+          (num 21) 
+          (name Pin_21) 
+          (type passive)) 
+        (pin 
+          (num 22) 
+          (name Pin_22) 
+          (type passive)) 
+        (pin 
+          (num 23) 
+          (name Pin_23) 
+          (type passive)) 
+        (pin 
+          (num 24) 
+          (name Pin_24) 
+          (type passive)) 
+        (pin 
+          (num 25) 
+          (name Pin_25) 
+          (type passive)) 
+        (pin 
+          (num 26) 
+          (name Pin_26) 
+          (type passive)) 
+        (pin 
+          (num 27) 
+          (name Pin_27) 
+          (type passive)) 
+        (pin 
+          (num 28) 
+          (name Pin_28) 
+          (type passive)) 
+        (pin 
+          (num 29) 
+          (name Pin_29) 
+          (type passive)) 
+        (pin 
+          (num 30) 
+          (name Pin_30) 
+          (type passive)) 
+        (pin 
+          (num 31) 
+          (name Pin_31) 
+          (type passive)) 
+        (pin 
+          (num 32) 
+          (name Pin_32) 
+          (type passive)) 
+        (pin 
+          (num 33) 
+          (name Pin_33) 
+          (type passive)) 
+        (pin 
+          (num 34) 
+          (name Pin_34) 
+          (type passive)) 
+        (pin 
+          (num 35) 
+          (name Pin_35) 
+          (type passive)) 
+        (pin 
+          (num 36) 
+          (name Pin_36) 
+          (type passive)) 
+        (pin 
+          (num 37) 
+          (name Pin_37) 
+          (type passive)) 
+        (pin 
+          (num 38) 
+          (name Pin_38) 
+          (type passive)) 
+        (pin 
+          (num 39) 
+          (name Pin_39) 
+          (type passive)) 
+        (pin 
+          (num 40) 
+          (name Pin_40) 
+          (type passive)) 
+        (pin 
+          (num MP) 
+          (name MountPin) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part C_Small) 
+      (description "Unpolarized capacitor, small symbol") 
+      (docs ~) 
+      (footprints 
+        (fp C_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C_Small)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part D_Schottky) 
+      (description "Schottky diode") 
+      (docs ~) 
+      (footprints 
+        (fp TO-???*) 
+        (fp *_Diode_*) 
+        (fp *SingleDiode*) 
+        (fp D_*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) D_Schottky)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part D_Zener) 
+      (description "Zener diode") 
+      (docs ~) 
+      (footprints 
+        (fp TO-???*) 
+        (fp *_Diode_*) 
+        (fp *SingleDiode*) 
+        (fp D_*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) D_Zener)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part Fuse) 
+      (description Fuse) 
+      (docs ~) 
+      (footprints 
+        (fp *Fuse*)) 
+      (fields 
+        (field 
+          (name Reference) F) 
+        (field 
+          (name Value) Fuse)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part LED) 
+      (description "Light emitting diode") 
+      (docs ~) 
+      (footprints 
+        (fp LED*) 
+        (fp LED_SMD:*) 
+        (fp LED_THT:*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) LED)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R_Small) 
+      (description "Resistor, small symbol") 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R_Small)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Mechanical) 
+      (part MountingHole) 
+      (description "Mounting Hole without connection") 
+      (docs ~) 
+      (footprints 
+        (fp MountingHole*)) 
+      (fields 
+        (field 
+          (name Reference) H) 
+        (field 
+          (name Value) MountingHole))) 
+    (libpart 
+      (lib Memory_EEPROM) 
+      (part 24LC16) 
+      (aliases 
+        (alias 24LC02) 
+        (alias 24LC00) 
+        (alias 24LC04) 
+        (alias 24LC08) 
+        (alias 24LC01) 
+        (alias 24LC512) 
+        (alias 24LC64) 
+        (alias 24LC1025) 
+        (alias 24LC32) 
+        (alias 24LC256) 
+        (alias 24LC128) 
+        (alias CAT24C256) 
+        (alias CAT24C128)) 
+      (description "I2C Serial EEPROM, 16Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8") 
+      (docs http://ww1.microchip.com/downloads/en/DeviceDoc/21703d.pdf) 
+      (footprints 
+        (fp DIP*W7.62mm*) 
+        (fp SOIC*3.9x4.9mm*) 
+        (fp TSSOP*4.4x3mm*P0.65mm*) 
+        (fp DFN*3x2mm*P0.5mm*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) 24LC16)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name A0) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name A1) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name A2) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 5) 
+          (name SDA) 
+          (type BiDi)) 
+        (pin 
+          (num 6) 
+          (name SCL) 
+          (type input)) 
+        (pin 
+          (num 7) 
+          (name WP) 
+          (type input)) 
+        (pin 
+          (num 8) 
+          (name VCC) 
+          (type power_in)))) 
+    (libpart 
+      (lib Mirage-rescue) 
+      (part MP1584-MP1584) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) MP1584-MP1584) 
+        (field 
+          (name Footprint) DC-BRICK)) 
+      (pins 
+        (pin 
+          (num IN1) 
+          (name VIN-) 
+          (type input)) 
+        (pin 
+          (num IN1+) 
+          (name VIN+) 
+          (type input)) 
+        (pin 
+          (num IN2) 
+          (name VIN-) 
+          (type input)) 
+        (pin 
+          (num IN2+) 
+          (name VIN+) 
+          (type input)) 
+        (pin 
+          (num OUT1) 
+          (name VOUT-) 
+          (type output)) 
+        (pin 
+          (num OUT1+) 
+          (name VOUT+) 
+          (type output)) 
+        (pin 
+          (num OUT2) 
+          (name VOUT-) 
+          (type output)) 
+        (pin 
+          (num OUT2+) 
+          (name VOUT+) 
+          (type output)))) 
+    (libpart 
+      (lib SamacSys_Parts) 
+      (part 284514-3) 
+      (description "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+      (docs https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) 284514-3) 
+        (field 
+          (name Footprint) SHDR3W80P0X350_1X3_1250X725X940P) 
+        (field 
+          (name Datasheet) https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=284514&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=284514-3) 
+        (field 
+          (name Description) "TE Connectivity Buchanan, 3 Way, 1 Row, Straight PCB Terminal Block Header") 
+        (field 
+          (name Height) 9.4) 
+        (field 
+          (name "Mouser Part Number") 571-284514-3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/TE-Connectivity/284514-3/?qs=woBvfblj%2FzwGS50caoQlYA%3D%3D) 
+        (field 
+          (name Manufacturer_Name) "TE Connectivity") 
+        (field 
+          (name Manufacturer_Part_Number) 284514-3)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name 3) 
+          (type passive)))) 
+    (libpart 
+      (lib SamacSys_Parts) 
+      (part SN74HC244N) 
+      (description "Octal Buffers And Line Drivers With 3-State Outputs") 
+      (docs http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc244) 
+      (fields 
+        (field 
+          (name Reference) IC) 
+        (field 
+          (name Value) SN74HC244N) 
+        (field 
+          (name Footprint) DIP794W53P254L2540H508Q20N) 
+        (field 
+          (name Datasheet) http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc244) 
+        (field 
+          (name Description) "Octal Buffers And Line Drivers With 3-State Outputs") 
+        (field 
+          (name Height) 5.08) 
+        (field 
+          (name "Mouser Part Number") 595-SN74HC244N) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HC244N?qs=N6WZOzgtpqVj86wWMB9mFg%3D%3D) 
+        (field 
+          (name Manufacturer_Name) "Texas Instruments") 
+        (field 
+          (name Manufacturer_Part_Number) SN74HC244N)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1~OE) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 1A1) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name 2Y4) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name 1A2) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name 2Y3) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name 1A3) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name 2Y2) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name 1A4) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name 2Y1) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 11) 
+          (name 2A1) 
+          (type passive)) 
+        (pin 
+          (num 12) 
+          (name 1Y4) 
+          (type passive)) 
+        (pin 
+          (num 13) 
+          (name 2A2) 
+          (type passive)) 
+        (pin 
+          (num 14) 
+          (name 1Y3) 
+          (type passive)) 
+        (pin 
+          (num 15) 
+          (name 2A3) 
+          (type passive)) 
+        (pin 
+          (num 16) 
+          (name 1Y2) 
+          (type passive)) 
+        (pin 
+          (num 17) 
+          (name 2A4) 
+          (type passive)) 
+        (pin 
+          (num 18) 
+          (name 1Y1) 
+          (type passive)) 
+        (pin 
+          (num 19) 
+          (name 2~OE) 
+          (type passive)) 
+        (pin 
+          (num 20) 
+          (name VCC) 
+          (type power_in)))) 
+    (libpart 
+      (lib Switch) 
+      (part SW_SPST) 
+      (description "Single Pole Single Throw (SPST) switch") 
+      (docs ~) 
+      (fields 
+        (field 
+          (name Reference) SW) 
+        (field 
+          (name Value) SW_SPST)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name A) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name B) 
+          (type passive)))) 
+    (libpart 
+      (lib Transistor_BJT) 
+      (part BC856BS) 
+      (aliases 
+        (alias BC856BDW1) 
+        (alias BC857BS) 
+        (alias BC857BDW1) 
+        (alias PMBT3906YS) 
+        (alias MMDT3906) 
+        (alias MBT3906DW1) 
+        (alias FFB3906) 
+        (alias MMDT5401) 
+        (alias PUMT1)) 
+      (description "100mA IC, 65V Vce, Dual PNP/PNP Transistors, SOT-363") 
+      (docs https://assets.nexperia.com/documents/data-sheet/BC856BS.pdf) 
+      (footprints 
+        (fp SOT?363*)) 
+      (fields 
+        (field 
+          (name Reference) Q) 
+        (field 
+          (name Value) BC856BS) 
+        (field 
+          (name Footprint) Package_TO_SOT_SMD:SOT-363_SC-70-6)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name E1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name B1) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name C2) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name E2) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name B2) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name C1) 
+          (type passive)))) 
+    (libpart 
+      (lib Transistor_FET) 
+      (part BSS138) 
+      (aliases 
+        (alias 2N7002) 
+        (alias 2N7002E) 
+        (alias 2N7002H) 
+        (alias 2N7002K) 
+        (alias BS170F) 
+        (alias BS870) 
+        (alias BSN20) 
+        (alias BSS123) 
+        (alias BSS127S) 
+        (alias DMG2302U) 
+        (alias DMG3402L) 
+        (alias DMG3404L) 
+        (alias DMG3406L) 
+        (alias DMG3414U) 
+        (alias DMG3418L) 
+        (alias DMN10H220L) 
+        (alias DMN10H700S) 
+        (alias DMN13H750S) 
+        (alias DMN2041L) 
+        (alias DMN2050L) 
+        (alias DMN2056U) 
+        (alias DMN2058U) 
+        (alias DMN2075U) 
+        (alias DMN2230U) 
+        (alias DMN24H11DS) 
+        (alias DMN24H3D5L) 
+        (alias DMN3042L) 
+        (alias DMN3051L) 
+        (alias DMN30H4D0L) 
+        (alias DMN3110S) 
+        (alias DMN3150L) 
+        (alias DMN3300U) 
+        (alias DMN3404L) 
+        (alias DMN6075S) 
+        (alias DMN6140L) 
+        (alias DMN67D7L) 
+        (alias DMN67D8L) 
+        (alias MMBF170) 
+        (alias VN10LF) 
+        (alias ZVN3306F) 
+        (alias ZVN3310F) 
+        (alias ZVN3320F) 
+        (alias ZVN4106F) 
+        (alias ZXM61N02F) 
+        (alias ZXM61N03F) 
+        (alias ZXMN10A07F) 
+        (alias ZXMN2A01F) 
+        (alias ZXMN2A14F) 
+        (alias ZXMN2B01F) 
+        (alias ZXMN2B14FH) 
+        (alias ZXMN2F30FH) 
+        (alias ZXMN2F34FH) 
+        (alias ZXMN3A01F) 
+        (alias ZXMN3A14F) 
+        (alias ZXMN3B01F) 
+        (alias ZXMN3B14F) 
+        (alias ZXMN3F30FH) 
+        (alias ZXMN6A07F) 
+        (alias IRLML0030) 
+        (alias IRLML2060) 
+        (alias TSM2302CX) 
+        (alias AO3400A)) 
+      (description "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23") 
+      (docs https://www.onsemi.com/pub/Collateral/BSS138-D.PDF) 
+      (footprints 
+        (fp SOT?23*)) 
+      (fields 
+        (field 
+          (name Reference) Q) 
+        (field 
+          (name Value) BSS138) 
+        (field 
+          (name Footprint) Package_TO_SOT_SMD:SOT-23)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name G) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name S) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name D) 
+          (type passive))))) 
+  (libraries 
+    (library 
+      (logical Connector) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector.lib")) 
+    (library 
+      (logical Connector_Generic_MountingPin) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic_MountingPin.lib")) 
+    (library 
+      (logical Device) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib")) 
+    (library 
+      (logical Mechanical) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Mechanical.lib")) 
+    (library 
+      (logical Memory_EEPROM) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Memory_EEPROM.lib")) 
+    (library 
+      (logical Mirage-rescue) 
+      (uri C:/Users/stuar/Desktop/PCB-Designs-main/Mirage/Mirage-rescue.lib)) 
+    (library 
+      (logical SamacSys_Parts) 
+      (uri C:/Users/stuar/AppData/Roaming/kicad/SamacSys_Parts.lib)) 
+    (library 
+      (logical Switch) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Switch.lib")) 
+    (library 
+      (logical Transistor_BJT) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Transistor_BJT.lib")) 
+    (library 
+      (logical Transistor_FET) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Transistor_FET.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name DATA13) 
+      (node 
+        (ref IC2) 
+        (pin 11)) 
+      (node 
+        (ref J30) 
+        (pin 38))) 
+    (net 
+      (code 2) 
+      (name GND) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref R9) 
+        (pin 2)) 
+      (node 
+        (ref IC1) 
+        (pin 1)) 
+      (node 
+        (ref IC1) 
+        (pin 19)) 
+      (node 
+        (ref IC1) 
+        (pin 10)) 
+      (node 
+        (ref D20) 
+        (pin 2)) 
+      (node 
+        (ref D21) 
+        (pin 2)) 
+      (node 
+        (ref R12) 
+        (pin 2)) 
+      (node 
+        (ref R11) 
+        (pin 2)) 
+      (node 
+        (ref R16) 
+        (pin 2)) 
+      (node 
+        (ref U2) 
+        (pin IN1)) 
+      (node 
+        (ref U2) 
+        (pin IN2)) 
+      (node 
+        (ref U2) 
+        (pin OUT1)) 
+      (node 
+        (ref U2) 
+        (pin OUT2)) 
+      (node 
+        (ref J23) 
+        (pin 1)) 
+      (node 
+        (ref D19) 
+        (pin 1)) 
+      (node 
+        (ref D22) 
+        (pin 2)) 
+      (node 
+        (ref J21) 
+        (pin 1)) 
+      (node 
+        (ref SW1) 
+        (pin 1)) 
+      (node 
+        (ref SW2) 
+        (pin 1)) 
+      (node 
+        (ref D23) 
+        (pin 2)) 
+      (node 
+        (ref J22) 
+        (pin 1)) 
+      (node 
+        (ref D18) 
+        (pin 1)) 
+      (node 
+        (ref R29) 
+        (pin 2)) 
+      (node 
+        (ref J10) 
+        (pin 1)) 
+      (node 
+        (ref J11) 
+        (pin 1)) 
+      (node 
+        (ref R39) 
+        (pin 2)) 
+      (node 
+        (ref J13) 
+        (pin 1)) 
+      (node 
+        (ref J15) 
+        (pin 1)) 
+      (node 
+        (ref J16) 
+        (pin 1)) 
+      (node 
+        (ref J14) 
+        (pin 1)) 
+      (node 
+        (ref J9) 
+        (pin 1)) 
+      (node 
+        (ref R32) 
+        (pin 2)) 
+      (node 
+        (ref IC2) 
+        (pin 19)) 
+      (node 
+        (ref IC2) 
+        (pin 10)) 
+      (node 
+        (ref IC2) 
+        (pin 1)) 
+      (node 
+        (ref J12) 
+        (pin 1)) 
+      (node 
+        (ref C3) 
+        (pin 2)) 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 1)) 
+      (node 
+        (ref J8) 
+        (pin 1)) 
+      (node 
+        (ref J7) 
+        (pin 1)) 
+      (node 
+        (ref J6) 
+        (pin 1)) 
+      (node 
+        (ref J5) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 1)) 
+      (node 
+        (ref R13) 
+        (pin 2)) 
+      (node 
+        (ref R14) 
+        (pin 2)) 
+      (node 
+        (ref R15) 
+        (pin 2)) 
+      (node 
+        (ref R10) 
+        (pin 2)) 
+      (node 
+        (ref R35) 
+        (pin 2)) 
+      (node 
+        (ref R33) 
+        (pin 2)) 
+      (node 
+        (ref R34) 
+        (pin 2)) 
+      (node 
+        (ref R38) 
+        (pin 2)) 
+      (node 
+        (ref R36) 
+        (pin 2)) 
+      (node 
+        (ref R37) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref R27) 
+        (pin 2)) 
+      (node 
+        (ref R28) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 3)) 
+      (node 
+        (ref J30) 
+        (pin 25)) 
+      (node 
+        (ref U1) 
+        (pin 7)) 
+      (node 
+        (ref U1) 
+        (pin 4)) 
+      (node 
+        (ref J30) 
+        (pin 20)) 
+      (node 
+        (ref J30) 
+        (pin 39)) 
+      (node 
+        (ref J30) 
+        (pin 34)) 
+      (node 
+        (ref J30) 
+        (pin 30)) 
+      (node 
+        (ref J30) 
+        (pin 14)) 
+      (node 
+        (ref J30) 
+        (pin 6)) 
+      (node 
+        (ref C2) 
+        (pin 2)) 
+      (node 
+        (ref J30) 
+        (pin 9))) 
+    (net 
+      (code 3) 
+      (name +5V) 
+      (node 
+        (ref C1) 
+        (pin 1)) 
+      (node 
+        (ref IC2) 
+        (pin 20)) 
+      (node 
+        (ref R31) 
+        (pin 1)) 
+      (node 
+        (ref D23) 
+        (pin 1)) 
+      (node 
+        (ref IC1) 
+        (pin 20)) 
+      (node 
+        (ref J30) 
+        (pin 4)) 
+      (node 
+        (ref F17) 
+        (pin 2)) 
+      (node 
+        (ref D22) 
+        (pin 1)) 
+      (node 
+        (ref J30) 
+        (pin 2)) 
+      (node 
+        (ref C3) 
+        (pin 1))) 
+    (net 
+      (code 4) 
+      (name DATA5) 
+      (node 
+        (ref IC1) 
+        (pin 11)) 
+      (node 
+        (ref J30) 
+        (pin 32))) 
+    (net 
+      (code 5) 
+      (name DATA3) 
+      (node 
+        (ref IC1) 
+        (pin 6)) 
+      (node 
+        (ref J30) 
+        (pin 19))) 
+    (net 
+      (code 6) 
+      (name DATA4) 
+      (node 
+        (ref IC1) 
+        (pin 8)) 
+      (node 
+        (ref J30) 
+        (pin 23))) 
+    (net 
+      (code 7) 
+      (name DATA15) 
+      (node 
+        (ref IC2) 
+        (pin 15)) 
+      (node 
+        (ref J30) 
+        (pin 15))) 
+    (net 
+      (code 8) 
+      (name DATA16) 
+      (node 
+        (ref IC2) 
+        (pin 17)) 
+      (node 
+        (ref J30) 
+        (pin 16))) 
+    (net 
+      (code 9) 
+      (name DATA14) 
+      (node 
+        (ref J30) 
+        (pin 40)) 
+      (node 
+        (ref IC2) 
+        (pin 13))) 
+    (net 
+      (code 10) 
+      (name DATA12) 
+      (node 
+        (ref J30) 
+        (pin 35)) 
+      (node 
+        (ref IC2) 
+        (pin 8))) 
+    (net 
+      (code 11) 
+      (name DATA11) 
+      (node 
+        (ref J30) 
+        (pin 12)) 
+      (node 
+        (ref IC2) 
+        (pin 6))) 
+    (net 
+      (code 12) 
+      (name DATA10) 
+      (node 
+        (ref IC2) 
+        (pin 4)) 
+      (node 
+        (ref J30) 
+        (pin 11))) 
+    (net 
+      (code 13) 
+      (name DATA9) 
+      (node 
+        (ref J30) 
+        (pin 36)) 
+      (node 
+        (ref IC2) 
+        (pin 2))) 
+    (net 
+      (code 14) 
+      (name DATA8) 
+      (node 
+        (ref J30) 
+        (pin 10)) 
+      (node 
+        (ref IC1) 
+        (pin 17))) 
+    (net 
+      (code 15) 
+      (name DATA7) 
+      (node 
+        (ref J30) 
+        (pin 8)) 
+      (node 
+        (ref IC1) 
+        (pin 15))) 
+    (net 
+      (code 16) 
+      (name +3V3) 
+      (node 
+        (ref J30) 
+        (pin 17)) 
+      (node 
+        (ref J30) 
+        (pin 1)) 
+      (node 
+        (ref R25) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 8)) 
+      (node 
+        (ref R26) 
+        (pin 1)) 
+      (node 
+        (ref C2) 
+        (pin 1))) 
+    (net 
+      (code 17) 
+      (name "Net-(J30-PadMP)") 
+      (node 
+        (ref J30) 
+        (pin MP))) 
+    (net 
+      (code 18) 
+      (name "Net-(J30-Pad13)") 
+      (node 
+        (ref J30) 
+        (pin 13))) 
+    (net 
+      (code 19) 
+      (name "Net-(J30-Pad37)") 
+      (node 
+        (ref J30) 
+        (pin 37))) 
+    (net 
+      (code 20) 
+      (name "Net-(J30-Pad31)") 
+      (node 
+        (ref J30) 
+        (pin 31))) 
+    (net 
+      (code 21) 
+      (name "Net-(J30-Pad29)") 
+      (node 
+        (ref J30) 
+        (pin 29))) 
+    (net 
+      (code 22) 
+      (name "Net-(J30-Pad26)") 
+      (node 
+        (ref J30) 
+        (pin 26))) 
+    (net 
+      (code 23) 
+      (name "Net-(J30-Pad22)") 
+      (node 
+        (ref J30) 
+        (pin 22))) 
+    (net 
+      (code 24) 
+      (name "Net-(J30-Pad18)") 
+      (node 
+        (ref J30) 
+        (pin 18))) 
+    (net 
+      (code 25) 
+      (name "Net-(J30-Pad7)") 
+      (node 
+        (ref J30) 
+        (pin 7))) 
+    (net 
+      (code 26) 
+      (name "Net-(J30-Pad5)") 
+      (node 
+        (ref J30) 
+        (pin 5))) 
+    (net 
+      (code 27) 
+      (name "Net-(J30-Pad3)") 
+      (node 
+        (ref J30) 
+        (pin 3))) 
+    (net 
+      (code 28) 
+      (name I2C_SCL) 
+      (node 
+        (ref J30) 
+        (pin 28)) 
+      (node 
+        (ref U1) 
+        (pin 6)) 
+      (node 
+        (ref R26) 
+        (pin 2))) 
+    (net 
+      (code 29) 
+      (name I2C_SDA) 
+      (node 
+        (ref J30) 
+        (pin 27)) 
+      (node 
+        (ref U1) 
+        (pin 5)) 
+      (node 
+        (ref R25) 
+        (pin 2))) 
+    (net 
+      (code 30) 
+      (name DATA1) 
+      (node 
+        (ref J30) 
+        (pin 24)) 
+      (node 
+        (ref IC1) 
+        (pin 2))) 
+    (net 
+      (code 31) 
+      (name DATA2) 
+      (node 
+        (ref IC1) 
+        (pin 4)) 
+      (node 
+        (ref J30) 
+        (pin 21))) 
+    (net 
+      (code 32) 
+      (name DATA6) 
+      (node 
+        (ref J30) 
+        (pin 33)) 
+      (node 
+        (ref IC1) 
+        (pin 13))) 
+    (net 
+      (code 33) 
+      (name "Net-(Q1-Pad6)") 
+      (node 
+        (ref Q1) 
+        (pin 6)) 
+      (node 
+        (ref R28) 
+        (pin 1)) 
+      (node 
+        (ref Q2) 
+        (pin 1))) 
+    (net 
+      (code 34) 
+      (name /standard-hat-components/P5V) 
+      (node 
+        (ref Q1) 
+        (pin 4)) 
+      (node 
+        (ref Q2) 
+        (pin 2))) 
+    (net 
+      (code 35) 
+      (name "Net-(Q1-Pad2)") 
+      (node 
+        (ref Q1) 
+        (pin 2)) 
+      (node 
+        (ref Q1) 
+        (pin 3)) 
+      (node 
+        (ref Q1) 
+        (pin 5)) 
+      (node 
+        (ref R27) 
+        (pin 1))) 
+    (net 
+      (code 36) 
+      (name /standard-hat-components/P5V_HAT) 
+      (node 
+        (ref Q2) 
+        (pin 3)) 
+      (node 
+        (ref Q1) 
+        (pin 1))) 
+    (net 
+      (code 37) 
+      (name Aux_In) 
+      (node 
+        (ref U2) 
+        (pin IN2+)) 
+      (node 
+        (ref U2) 
+        (pin IN1+)) 
+      (node 
+        (ref J21) 
+        (pin 2))) 
+    (net 
+      (code 38) 
+      (name V5) 
+      (node 
+        (ref F17) 
+        (pin 1))) 
+    (net 
+      (code 39) 
+      (name "Net-(D19-Pad2)") 
+      (node 
+        (ref D19) 
+        (pin 2)) 
+      (node 
+        (ref R31) 
+        (pin 2))) 
+    (net 
+      (code 40) 
+      (name VIN2) 
+      (node 
+        (ref F11) 
+        (pin 2)) 
+      (node 
+        (ref F14) 
+        (pin 2)) 
+      (node 
+        (ref D21) 
+        (pin 1)) 
+      (node 
+        (ref F16) 
+        (pin 2)) 
+      (node 
+        (ref F13) 
+        (pin 2)) 
+      (node 
+        (ref F15) 
+        (pin 2)) 
+      (node 
+        (ref F9) 
+        (pin 2)) 
+      (node 
+        (ref F10) 
+        (pin 2)) 
+      (node 
+        (ref F12) 
+        (pin 2)) 
+      (node 
+        (ref F19) 
+        (pin 2)) 
+      (node 
+        (ref R30) 
+        (pin 1))) 
+    (net 
+      (code 41) 
+      (name V2) 
+      (node 
+        (ref F19) 
+        (pin 1)) 
+      (node 
+        (ref J22) 
+        (pin 2))) 
+    (net 
+      (code 42) 
+      (name VIN1) 
+      (node 
+        (ref F2) 
+        (pin 2)) 
+      (node 
+        (ref F1) 
+        (pin 2)) 
+      (node 
+        (ref F8) 
+        (pin 2)) 
+      (node 
+        (ref F18) 
+        (pin 2)) 
+      (node 
+        (ref F6) 
+        (pin 2)) 
+      (node 
+        (ref F7) 
+        (pin 2)) 
+      (node 
+        (ref D20) 
+        (pin 1)) 
+      (node 
+        (ref F4) 
+        (pin 2)) 
+      (node 
+        (ref D17) 
+        (pin 2)) 
+      (node 
+        (ref F3) 
+        (pin 2)) 
+      (node 
+        (ref F5) 
+        (pin 2))) 
+    (net 
+      (code 43) 
+      (name V1) 
+      (node 
+        (ref J23) 
+        (pin 2)) 
+      (node 
+        (ref F18) 
+        (pin 1))) 
+    (net 
+      (code 44) 
+      (name Buck) 
+      (node 
+        (ref U2) 
+        (pin OUT1+)) 
+      (node 
+        (ref U2) 
+        (pin OUT2+))) 
+    (net 
+      (code 45) 
+      (name "Net-(D18-Pad2)") 
+      (node 
+        (ref D18) 
+        (pin 2)) 
+      (node 
+        (ref R30) 
+        (pin 2))) 
+    (net 
+      (code 46) 
+      (name "Net-(D17-Pad1)") 
+      (node 
+        (ref D17) 
+        (pin 1)) 
+      (node 
+        (ref R29) 
+        (pin 1))) 
+    (net 
+      (code 47) 
+      (name BTN2) 
+      (node 
+        (ref SW2) 
+        (pin 2))) 
+    (net 
+      (code 48) 
+      (name BTN1) 
+      (node 
+        (ref SW1) 
+        (pin 2))) 
+    (net 
+      (code 49) 
+      (name "Net-(IC1-Pad18)") 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref IC1) 
+        (pin 18))) 
+    (net 
+      (code 50) 
+      (name "Net-(J3-Pad2)") 
+      (node 
+        (ref J3) 
+        (pin 2)) 
+      (node 
+        (ref R3) 
+        (pin 1))) 
+    (net 
+      (code 51) 
+      (name "Net-(D1-Pad1)") 
+      (node 
+        (ref D1) 
+        (pin 1)) 
+      (node 
+        (ref R9) 
+        (pin 1))) 
+    (net 
+      (code 52) 
+      (name "Net-(J4-Pad2)") 
+      (node 
+        (ref J4) 
+        (pin 2)) 
+      (node 
+        (ref R4) 
+        (pin 1))) 
+    (net 
+      (code 53) 
+      (name "Net-(J2-Pad2)") 
+      (node 
+        (ref R2) 
+        (pin 1)) 
+      (node 
+        (ref J2) 
+        (pin 2))) 
+    (net 
+      (code 54) 
+      (name "Net-(J8-Pad2)") 
+      (node 
+        (ref J8) 
+        (pin 2)) 
+      (node 
+        (ref R8) 
+        (pin 1))) 
+    (net 
+      (code 55) 
+      (name "Net-(J1-Pad2)") 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref R1) 
+        (pin 1))) 
+    (net 
+      (code 56) 
+      (name "Net-(IC1-Pad16)") 
+      (node 
+        (ref IC1) 
+        (pin 16)) 
+      (node 
+        (ref R2) 
+        (pin 2))) 
+    (net 
+      (code 57) 
+      (name "Net-(IC1-Pad14)") 
+      (node 
+        (ref R3) 
+        (pin 2)) 
+      (node 
+        (ref IC1) 
+        (pin 14))) 
+    (net 
+      (code 58) 
+      (name "Net-(IC1-Pad12)") 
+      (node 
+        (ref R4) 
+        (pin 2)) 
+      (node 
+        (ref IC1) 
+        (pin 12))) 
+    (net 
+      (code 59) 
+      (name "Net-(IC1-Pad9)") 
+      (node 
+        (ref IC1) 
+        (pin 9)) 
+      (node 
+        (ref R5) 
+        (pin 2))) 
+    (net 
+      (code 60) 
+      (name "Net-(J6-Pad2)") 
+      (node 
+        (ref R6) 
+        (pin 1)) 
+      (node 
+        (ref J6) 
+        (pin 2))) 
+    (net 
+      (code 61) 
+      (name "Net-(J5-Pad2)") 
+      (node 
+        (ref J5) 
+        (pin 2)) 
+      (node 
+        (ref R5) 
+        (pin 1))) 
+    (net 
+      (code 62) 
+      (name "Net-(IC1-Pad7)") 
+      (node 
+        (ref R6) 
+        (pin 2)) 
+      (node 
+        (ref IC1) 
+        (pin 7))) 
+    (net 
+      (code 63) 
+      (name "Net-(J7-Pad2)") 
+      (node 
+        (ref J7) 
+        (pin 2)) 
+      (node 
+        (ref R7) 
+        (pin 1))) 
+    (net 
+      (code 64) 
+      (name "Net-(D8-Pad1)") 
+      (node 
+        (ref D8) 
+        (pin 1)) 
+      (node 
+        (ref R16) 
+        (pin 1))) 
+    (net 
+      (code 65) 
+      (name "Net-(D8-Pad2)") 
+      (node 
+        (ref F8) 
+        (pin 1)) 
+      (node 
+        (ref J8) 
+        (pin 3)) 
+      (node 
+        (ref D8) 
+        (pin 2))) 
+    (net 
+      (code 66) 
+      (name "Net-(D4-Pad2)") 
+      (node 
+        (ref F4) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 3)) 
+      (node 
+        (ref D4) 
+        (pin 2))) 
+    (net 
+      (code 67) 
+      (name "Net-(D4-Pad1)") 
+      (node 
+        (ref D4) 
+        (pin 1)) 
+      (node 
+        (ref R12) 
+        (pin 1))) 
+    (net 
+      (code 68) 
+      (name "Net-(D3-Pad1)") 
+      (node 
+        (ref D3) 
+        (pin 1)) 
+      (node 
+        (ref R11) 
+        (pin 1))) 
+    (net 
+      (code 69) 
+      (name "Net-(D3-Pad2)") 
+      (node 
+        (ref J3) 
+        (pin 3)) 
+      (node 
+        (ref F3) 
+        (pin 1)) 
+      (node 
+        (ref D3) 
+        (pin 2))) 
+    (net 
+      (code 70) 
+      (name "Net-(D2-Pad1)") 
+      (node 
+        (ref R10) 
+        (pin 1)) 
+      (node 
+        (ref D2) 
+        (pin 1))) 
+    (net 
+      (code 71) 
+      (name "Net-(D2-Pad2)") 
+      (node 
+        (ref D2) 
+        (pin 2)) 
+      (node 
+        (ref F2) 
+        (pin 1)) 
+      (node 
+        (ref J2) 
+        (pin 3))) 
+    (net 
+      (code 72) 
+      (name "Net-(D1-Pad2)") 
+      (node 
+        (ref J1) 
+        (pin 3)) 
+      (node 
+        (ref F1) 
+        (pin 1)) 
+      (node 
+        (ref D1) 
+        (pin 2))) 
+    (net 
+      (code 73) 
+      (name "Net-(D7-Pad1)") 
+      (node 
+        (ref R15) 
+        (pin 1)) 
+      (node 
+        (ref D7) 
+        (pin 1))) 
+    (net 
+      (code 74) 
+      (name "Net-(D7-Pad2)") 
+      (node 
+        (ref D7) 
+        (pin 2)) 
+      (node 
+        (ref F7) 
+        (pin 1)) 
+      (node 
+        (ref J7) 
+        (pin 3))) 
+    (net 
+      (code 75) 
+      (name "Net-(D6-Pad1)") 
+      (node 
+        (ref D6) 
+        (pin 1)) 
+      (node 
+        (ref R14) 
+        (pin 1))) 
+    (net 
+      (code 76) 
+      (name "Net-(D6-Pad2)") 
+      (node 
+        (ref D6) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin 3)) 
+      (node 
+        (ref F6) 
+        (pin 1))) 
+    (net 
+      (code 77) 
+      (name "Net-(D5-Pad1)") 
+      (node 
+        (ref D5) 
+        (pin 1)) 
+      (node 
+        (ref R13) 
+        (pin 1))) 
+    (net 
+      (code 78) 
+      (name "Net-(D5-Pad2)") 
+      (node 
+        (ref F5) 
+        (pin 1)) 
+      (node 
+        (ref J5) 
+        (pin 3)) 
+      (node 
+        (ref D5) 
+        (pin 2))) 
+    (net 
+      (code 79) 
+      (name "Net-(IC1-Pad5)") 
+      (node 
+        (ref IC1) 
+        (pin 5)) 
+      (node 
+        (ref R7) 
+        (pin 2))) 
+    (net 
+      (code 80) 
+      (name "Net-(IC1-Pad3)") 
+      (node 
+        (ref R8) 
+        (pin 2)) 
+      (node 
+        (ref IC1) 
+        (pin 3))) 
+    (net 
+      (code 81) 
+      (name "Net-(D14-Pad1)") 
+      (node 
+        (ref R37) 
+        (pin 1)) 
+      (node 
+        (ref D14) 
+        (pin 1))) 
+    (net 
+      (code 82) 
+      (name "Net-(D13-Pad1)") 
+      (node 
+        (ref D13) 
+        (pin 1)) 
+      (node 
+        (ref R36) 
+        (pin 1))) 
+    (net 
+      (code 83) 
+      (name "Net-(D13-Pad2)") 
+      (node 
+        (ref F13) 
+        (pin 1)) 
+      (node 
+        (ref D13) 
+        (pin 2)) 
+      (node 
+        (ref J13) 
+        (pin 3))) 
+    (net 
+      (code 84) 
+      (name "Net-(D12-Pad1)") 
+      (node 
+        (ref D12) 
+        (pin 1)) 
+      (node 
+        (ref R35) 
+        (pin 1))) 
+    (net 
+      (code 85) 
+      (name "Net-(D12-Pad2)") 
+      (node 
+        (ref D12) 
+        (pin 2)) 
+      (node 
+        (ref J12) 
+        (pin 3)) 
+      (node 
+        (ref F12) 
+        (pin 1))) 
+    (net 
+      (code 86) 
+      (name "Net-(D14-Pad2)") 
+      (node 
+        (ref D14) 
+        (pin 2)) 
+      (node 
+        (ref J14) 
+        (pin 3)) 
+      (node 
+        (ref F14) 
+        (pin 1))) 
+    (net 
+      (code 87) 
+      (name "Net-(D15-Pad1)") 
+      (node 
+        (ref D15) 
+        (pin 1)) 
+      (node 
+        (ref R38) 
+        (pin 1))) 
+    (net 
+      (code 88) 
+      (name "Net-(D15-Pad2)") 
+      (node 
+        (ref F15) 
+        (pin 1)) 
+      (node 
+        (ref D15) 
+        (pin 2)) 
+      (node 
+        (ref J15) 
+        (pin 3))) 
+    (net 
+      (code 89) 
+      (name "Net-(D9-Pad2)") 
+      (node 
+        (ref D9) 
+        (pin 2)) 
+      (node 
+        (ref F9) 
+        (pin 1)) 
+      (node 
+        (ref J9) 
+        (pin 3))) 
+    (net 
+      (code 90) 
+      (name "Net-(D9-Pad1)") 
+      (node 
+        (ref R32) 
+        (pin 1)) 
+      (node 
+        (ref D9) 
+        (pin 1))) 
+    (net 
+      (code 91) 
+      (name "Net-(D10-Pad1)") 
+      (node 
+        (ref D10) 
+        (pin 1)) 
+      (node 
+        (ref R33) 
+        (pin 1))) 
+    (net 
+      (code 92) 
+      (name "Net-(D10-Pad2)") 
+      (node 
+        (ref J10) 
+        (pin 3)) 
+      (node 
+        (ref D10) 
+        (pin 2)) 
+      (node 
+        (ref F10) 
+        (pin 1))) 
+    (net 
+      (code 93) 
+      (name "Net-(D11-Pad1)") 
+      (node 
+        (ref R34) 
+        (pin 1)) 
+      (node 
+        (ref D11) 
+        (pin 1))) 
+    (net 
+      (code 94) 
+      (name "Net-(D11-Pad2)") 
+      (node 
+        (ref D11) 
+        (pin 2)) 
+      (node 
+        (ref J11) 
+        (pin 3)) 
+      (node 
+        (ref F11) 
+        (pin 1))) 
+    (net 
+      (code 95) 
+      (name "Net-(D16-Pad1)") 
+      (node 
+        (ref R39) 
+        (pin 1)) 
+      (node 
+        (ref D16) 
+        (pin 1))) 
+    (net 
+      (code 96) 
+      (name "Net-(D16-Pad2)") 
+      (node 
+        (ref J16) 
+        (pin 3)) 
+      (node 
+        (ref F16) 
+        (pin 1)) 
+      (node 
+        (ref D16) 
+        (pin 2))) 
+    (net 
+      (code 97) 
+      (name "Net-(J15-Pad2)") 
+      (node 
+        (ref J15) 
+        (pin 2)) 
+      (node 
+        (ref R23) 
+        (pin 1))) 
+    (net 
+      (code 98) 
+      (name "Net-(IC2-Pad12)") 
+      (node 
+        (ref IC2) 
+        (pin 12)) 
+      (node 
+        (ref R20) 
+        (pin 2))) 
+    (net 
+      (code 99) 
+      (name "Net-(J12-Pad2)") 
+      (node 
+        (ref J12) 
+        (pin 2)) 
+      (node 
+        (ref R20) 
+        (pin 1))) 
+    (net 
+      (code 100) 
+      (name "Net-(IC2-Pad14)") 
+      (node 
+        (ref IC2) 
+        (pin 14)) 
+      (node 
+        (ref R19) 
+        (pin 2))) 
+    (net 
+      (code 101) 
+      (name "Net-(IC2-Pad9)") 
+      (node 
+        (ref IC2) 
+        (pin 9)) 
+      (node 
+        (ref R21) 
+        (pin 2))) 
+    (net 
+      (code 102) 
+      (name "Net-(IC2-Pad5)") 
+      (node 
+        (ref IC2) 
+        (pin 5)) 
+      (node 
+        (ref R23) 
+        (pin 2))) 
+    (net 
+      (code 103) 
+      (name "Net-(J14-Pad2)") 
+      (node 
+        (ref R22) 
+        (pin 1)) 
+      (node 
+        (ref J14) 
+        (pin 2))) 
+    (net 
+      (code 104) 
+      (name "Net-(IC2-Pad7)") 
+      (node 
+        (ref R22) 
+        (pin 2)) 
+      (node 
+        (ref IC2) 
+        (pin 7))) 
+    (net 
+      (code 105) 
+      (name "Net-(J13-Pad2)") 
+      (node 
+        (ref J13) 
+        (pin 2)) 
+      (node 
+        (ref R21) 
+        (pin 1))) 
+    (net 
+      (code 106) 
+      (name "Net-(J11-Pad2)") 
+      (node 
+        (ref J11) 
+        (pin 2)) 
+      (node 
+        (ref R19) 
+        (pin 1))) 
+    (net 
+      (code 107) 
+      (name "Net-(J10-Pad2)") 
+      (node 
+        (ref R18) 
+        (pin 1)) 
+      (node 
+        (ref J10) 
+        (pin 2))) 
+    (net 
+      (code 108) 
+      (name "Net-(J9-Pad2)") 
+      (node 
+        (ref J9) 
+        (pin 2)) 
+      (node 
+        (ref R17) 
+        (pin 1))) 
+    (net 
+      (code 109) 
+      (name "Net-(J16-Pad2)") 
+      (node 
+        (ref R24) 
+        (pin 1)) 
+      (node 
+        (ref J16) 
+        (pin 2))) 
+    (net 
+      (code 110) 
+      (name "Net-(IC2-Pad3)") 
+      (node 
+        (ref IC2) 
+        (pin 3)) 
+      (node 
+        (ref R24) 
+        (pin 2))) 
+    (net 
+      (code 111) 
+      (name "Net-(IC2-Pad18)") 
+      (node 
+        (ref R17) 
+        (pin 2)) 
+      (node 
+        (ref IC2) 
+        (pin 18))) 
+    (net 
+      (code 112) 
+      (name "Net-(IC2-Pad16)") 
+      (node 
+        (ref IC2) 
+        (pin 16)) 
+      (node 
+        (ref R18) 
+        (pin 2)))))
