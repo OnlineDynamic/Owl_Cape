@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-12012018-141130";"";
+"REFERENCE";"1902547";"";
+"TraceParts.PartTitle";"MKDS 5 HV /2-9,52 2way 9.52mm";"";
+"TraceParts.InstanceId";"10-12012018-141130639R4E3KHLPMIOVMZIAL8FF2E";"";
+"ALLIED_STOCK_NUMBER";"70255292";"";
+"SUPPLIER";"PHOENIX CONTACT";"";
+"DESIGN";"MKDS 5 HV /2-9,52 2way 9.52mm";"";
+"TraceParts.PartVersion";"1.0.2";"";
+"TraceParts.PartLanguage";"en";"";

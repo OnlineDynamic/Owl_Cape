@@ -1,0 +1,16 @@
+﻿"Symbol";"Value";"Unit";
+"SUPPLIER_NAME";"RS Components";"";
+"TraceParts.PartVersion";"1.1.3";"";
+"SUPPLIER";"Assmann";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartNumber";"10-14122010-115522";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"ASSMANN WSW 2.54mm Pitch Vertical 20 Way, Through Hole Stamped Pin Open Frame IC Dip Socket, 1A";"";
+"TraceParts.InstanceId";"10-14122010-115522AX8CW99RXFDAIXUZ8J7YEM2QA";"";
+"TraceParts.PartTitle";"ASSMANN WSW 2.54mm Pitch Vertical 20 Way, Through Hole Stamped Pin Open Frame IC Dip Socket, 1A";"";
+"REFERENCE";"A 20-LC-TT";"";
+"Buy_Now";"https://uk.rs-online.com/web/p/products/6742444P?cm_mmc=en-ds-_-mcad-_-traceparts-_-6742444P'";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"rs_stock_number";"6742444P";"";
+"TraceParts.ClassPath";"RS_COMPONENTS:10-14122010-115522";"";
