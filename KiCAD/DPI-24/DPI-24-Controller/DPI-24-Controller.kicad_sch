@@ -2415,19 +2415,19 @@
       (reference "H6") (unit 1) (value "PPOGO_USBDP") (footprint "Stuart_BESPOKE:POGO_D3.50mm_Drill0.9mm")
     )
     (path "/00000000-0000-0000-0000-00006243dd0b/315ed40d-2ed2-43d4-ab56-86ff969d4795"
-      (reference "IC1") (unit 1) (value "SN74AHC245N") (footprint "DIP794W53P254L2540H508Q20N")
+      (reference "IC1") (unit 1) (value "SN74AHC245N") (footprint "SamacSys_Parts:DIP794W53P254L2540H508Q20N")
     )
     (path "/00000000-0000-0000-0000-00006256a6bf/9438a441-1f6d-4d66-bfb8-89037a14c388"
-      (reference "IC2") (unit 1) (value "SN74AHC245N") (footprint "DIP794W53P254L2540H508Q20N")
+      (reference "IC2") (unit 1) (value "SN74AHC245N") (footprint "SamacSys_Parts:DIP794W53P254L2540H508Q20N")
     )
     (path "/4d354041-9d51-46f1-a4f1-c4cb6a6b9fd8/f5274e43-5645-48e8-b91a-cb0d7105e4fa"
-      (reference "IC3") (unit 1) (value "SN74AHC245N") (footprint "DIP794W53P254L2540H508Q20N")
+      (reference "IC3") (unit 1) (value "SN74AHC245N") (footprint "SamacSys_Parts:DIP794W53P254L2540H508Q20N")
     )
     (path "/5ef60788-0839-45ff-9418-a42292bfa414"
       (reference "IC4") (unit 1) (value "Raspberry_Pi_Zero_2_W__v1.0_") (footprint "Stuart_BESPOKE:RASPBERRYPIZERO2WV1")
     )
     (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/2995acc0-a891-434b-86c8-679b869d950f"
-      (reference "IC5") (unit 1) (value "KSZ8794CNXIC") (footprint "QFN40P800X800X90-65N")
+      (reference "IC5") (unit 1) (value "KSZ8794CNXIC") (footprint "SamacSys_Parts:QFN40P800X800X90-65N")
     )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-0000625a5b8c"
       (reference "J1") (unit 1) (value "G D V") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
@@ -2511,13 +2511,13 @@
       (reference "J27") (unit 1) (value "LAN 2") (footprint "Connector_RJ:RJ45_BEL_SS74301-00x_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-0000600e4b71"
-      (reference "J28") (unit 1) (value "1-8 In") (footprint "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal")
+      (reference "J28") (unit 1) (value "1-8 In") (footprint "Stuart_BESPOKE:TerminalBlock_KF950_1x02_P9.50mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-0000600e5475"
-      (reference "J29") (unit 1) (value "9-16 In") (footprint "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal")
+      (reference "J29") (unit 1) (value "9-16 In 12V DC") (footprint "Stuart_BESPOKE:TerminalBlock_KF950_1x02_P9.50mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/0da988ff-6050-4f80-9778-32278b7b4a0a"
-      (reference "J30") (unit 1) (value "17-24 In") (footprint "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal")
+      (reference "J30") (unit 1) (value "17-24 In 12V DC") (footprint "Stuart_BESPOKE:TerminalBlock_KF950_1x02_P9.50mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000062324f52"
       (reference "J31") (unit 1) (value "Conn_02x20_Odd_Even_MountingPin") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")

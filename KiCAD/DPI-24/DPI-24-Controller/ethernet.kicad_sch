@@ -1591,7 +1591,7 @@
     (uuid 2995acc0-a891-434b-86c8-679b869d950f)
     (property "Reference" "IC5" (id 0) (at 249.1965 84.4635 0))
     (property "Value" "KSZ8794CNXIC" (id 1) (at 249.1965 87.0004 0))
-    (property "Footprint" "QFN40P800X800X90-65N" (id 2) (at 242.57 69.85 0)
+    (property "Footprint" "SamacSys_Parts:QFN40P800X800X90-65N" (id 2) (at 242.57 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 242.57 72.39 0)

@@ -2505,7 +2505,7 @@
     (uuid 315ed40d-2ed2-43d4-ab56-86ff969d4795)
     (property "Reference" "IC1" (id 0) (at 43.18 94.141 0))
     (property "Value" "SN74AHC245N" (id 1) (at 43.18 96.6779 0))
-    (property "Footprint" "DIP794W53P254L2540H508Q20N" (id 2) (at 52.07 97.79 0)
+    (property "Footprint" "SamacSys_Parts:DIP794W53P254L2540H508Q20N" (id 2) (at 52.07 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc245" (id 3) (at 52.07 100.33 0)
