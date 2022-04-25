@@ -2511,13 +2511,13 @@
       (reference "J27") (unit 1) (value "LAN 2") (footprint "Connector_RJ:RJ45_BEL_SS74301-00x_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-0000600e4b71"
-      (reference "J28") (unit 1) (value "1-8 In") (footprint "Stuart_BESPOKE:TerminalBlock_KF950_1x02_P9.50mm_Horizontal")
+      (reference "J28") (unit 1) (value "Ports 1-8 12V DC IN") (footprint "Stuart_BESPOKE:TerminalBlock_KF950_1x02_P9.50mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-0000600e5475"
-      (reference "J29") (unit 1) (value "9-16 In 12V DC") (footprint "Stuart_BESPOKE:TerminalBlock_KF950_1x02_P9.50mm_Horizontal")
+      (reference "J29") (unit 1) (value "Ports 9-16 12V DC IN") (footprint "Stuart_BESPOKE:TerminalBlock_KF950_1x02_P9.50mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/0da988ff-6050-4f80-9778-32278b7b4a0a"
-      (reference "J30") (unit 1) (value "17-24 In 12V DC") (footprint "Stuart_BESPOKE:TerminalBlock_KF950_1x02_P9.50mm_Horizontal")
+      (reference "J30") (unit 1) (value "Ports 17-24 12V DC IN") (footprint "Stuart_BESPOKE:TerminalBlock_KF950_1x02_P9.50mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000062324f52"
       (reference "J31") (unit 1) (value "Conn_02x20_Odd_Even_MountingPin") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
@@ -2736,19 +2736,19 @@
       (reference "RN6") (unit 4) (value "33R") (footprint "Resistor_THT:R_Array_SIP8")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/8076fc12-03a8-4a06-95a1-baaa5e5bcd6c"
-      (reference "SW1") (unit 1) (value "SW_UP") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+      (reference "SW1") (unit 1) (value "UP") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/b035374f-1a0b-45b9-a281-2ea2a5d3e5aa"
-      (reference "SW2") (unit 1) (value "SW_DOWN") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+      (reference "SW2") (unit 1) (value "DOWN") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/a6a47508-8877-4ab7-828f-fbfd1a8194aa"
-      (reference "SW3") (unit 1) (value "SW_BACK") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+      (reference "SW3") (unit 1) (value "BACK") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/55e4a9f4-3e09-4d75-ad4c-618e19e6d599"
-      (reference "SW4") (unit 1) (value "SW_TEST") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+      (reference "SW4") (unit 1) (value "TEST") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/e1308ef9-4b3c-46aa-a949-80a51e780b05"
-      (reference "SW5") (unit 1) (value "SW_ENTER") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+      (reference "SW5") (unit 1) (value "ENTER") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/00000000-0000-0000-0000-00006235185d/00000000-0000-0000-0000-00006237f70d"
       (reference "U1") (unit 1) (value "AT24C256C") (footprint "Package_DIP:DIP-8_W7.62mm_Socket")
