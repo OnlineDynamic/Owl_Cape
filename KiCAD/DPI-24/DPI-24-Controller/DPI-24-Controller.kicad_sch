@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "The Owl - RPI Cape 16ch Pixel Controller")
+    (title "RPI Cape DPI 24ch Pixel Controller")
     (date "2022-04-04")
     (company "OnlineDynamic")
   )
@@ -1396,8 +1396,8 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062324f52)
     (property "Reference" "J31" (id 0) (at 46.99 32.5882 0))
-    (property "Value" "" (id 1) (at 46.99 34.8996 0))
-    (property "Footprint" "" (id 2) (at 45.72 60.96 0)
+    (property "Value" "Conn_02x20_Odd_Even_MountingPin" (id 1) (at 46.99 34.8996 0))
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" (id 2) (at 45.72 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 45.72 60.96 0)
@@ -1609,10 +1609,10 @@
     (property "Reference" "H6" (id 0) (at 59.436 188.6493 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "" (id 1) (at 59.436 191.1862 0)
+    (property "Value" "PPOGO_USBDP" (id 1) (at 59.436 191.1862 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 56.896 188.214 0)
+    (property "Footprint" "Stuart_BESPOKE:POGO_D3.50mm_Drill0.9mm" (id 2) (at 56.896 188.214 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 56.896 188.214 0)
@@ -1625,8 +1625,8 @@
     (in_bom yes) (on_board yes)
     (uuid 5ef60788-0839-45ff-9418-a42292bfa414)
     (property "Reference" "IC4" (id 0) (at 141.986 29.464 0))
-    (property "Value" "" (id 1) (at 138.43 34.036 0))
-    (property "Footprint" "" (id 2) (at 123.952 20.574 0)
+    (property "Value" "Raspberry_Pi_Zero_2_W__v1.0_" (id 1) (at 138.43 34.036 0))
+    (property "Footprint" "Stuart_BESPOKE:RASPBERRYPIZERO2WV1" (id 2) (at 123.952 20.574 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://cdn.sparkfun.com/assets/learn_tutorials/6/7/6/PiZero_1.pdf" (id 3) (at 174.752 40.894 0)
@@ -1727,10 +1727,10 @@
     (property "Reference" "H5" (id 0) (at 33.274 188.6493 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "" (id 1) (at 33.274 191.1862 0)
+    (property "Value" "POGO_USBDM" (id 1) (at 33.274 191.1862 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 30.734 188.214 0)
+    (property "Footprint" "Stuart_BESPOKE:POGO_D3.50mm_Drill0.9mm" (id 2) (at 30.734 188.214 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 30.734 188.214 0)
@@ -1751,14 +1751,14 @@
     )
   )
 
-  (sheet (at 257.81 25.4) (size 19.05 15.24) (fields_autoplaced)
+  (sheet (at 229.362 87.884) (size 19.05 15.24) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00006235d74f)
-    (property "Sheet name" "power" (id 0) (at 257.81 24.6884 0)
+    (property "Sheet name" "power" (id 0) (at 229.362 87.1724 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "power.kicad_sch" (id 1) (at 257.81 41.2246 0)
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 229.362 103.7086 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -1799,14 +1799,14 @@
     )
   )
 
-  (sheet (at 201.676 119.634) (size 22.86 16.256) (fields_autoplaced)
+  (sheet (at 256.286 24.384) (size 22.86 16.256) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 4d354041-9d51-46f1-a4f1-c4cb6a6b9fd8)
-    (property "Sheet name" "outputs 17-24" (id 0) (at 201.676 118.9224 0)
+    (property "Sheet name" "outputs 17-24" (id 0) (at 256.286 23.6724 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "outports17-24.kicad_sch" (id 1) (at 201.676 136.4746 0)
+    (property "Sheet file" "outports17-24.kicad_sch" (id 1) (at 256.286 41.2246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -1892,6 +1892,9 @@
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-0000625c38b1"
       (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/aed09ff2-8cdb-4ec1-b27f-d13ddd423151"
+      (reference "#PWR014") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/882f1959-4a15-435b-87de-be468139ebfc"
       (reference "#PWR015") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -1948,6 +1951,12 @@
     )
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/625258f7-b21b-41e6-9716-977f01b30264"
       (reference "#PWR033") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/5a4c192d-8d3a-40db-ad38-d9db4a269560"
+      (reference "#PWR034") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/5d2b0ae3-215c-4435-a957-64088f6e535d"
+      (reference "#PWR035") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/71bb36b7-6b15-4143-b770-70899c8718b2"
       (reference "#PWR036") (unit 1) (value "GND") (footprint "")
@@ -2190,16 +2199,16 @@
       (reference "#PWR0159") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-00006264aa53"
-      (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:CP_Elec_4x5.3")
+      (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm")
     )
     (path "/00000000-0000-0000-0000-00006235185d/c446ea81-52d3-45cd-987a-588172881194"
-      (reference "C2") (unit 1) (value "0.1uF") (footprint "3544again:C_0805_2012Metric")
+      (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm")
     )
     (path "/00000000-0000-0000-0000-00006256a6bf/8f565d12-9e5c-4925-9ba5-8390f9472918"
-      (reference "C3") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:CP_Elec_4x5.3")
+      (reference "C3") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm")
     )
     (path "/4d354041-9d51-46f1-a4f1-c4cb6a6b9fd8/00000000-0000-0000-0000-000062393073"
-      (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:CP_Elec_4x5.3")
+      (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm")
     )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-000062448d86"
       (reference "D1") (unit 1) (value "0603") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -2516,6 +2525,9 @@
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/0028aa43-9da8-40e3-8682-f9c3e87d84d8"
       (reference "J32") (unit 1) (value "OLED") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/6336394d-7e46-45c7-b073-13cf1cd71142"
+      (reference "J33") (unit 1) (value "GPIO TRG") (footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
+    )
     (path "/00000000-0000-0000-0000-00006235185d/00000000-0000-0000-0000-0000623a65e4"
       (reference "Q1") (unit 1) (value "MMDT5401") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
@@ -2612,6 +2624,21 @@
     (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/f35d2383-c886-4fae-9bf0-7bde566567ed"
       (reference "R29") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/306cca96-9f05-42f7-aa13-45be06abf850"
+      (reference "R30") (unit 1) (value "Pull_Up_resistor") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/24e0d778-e59a-460f-afdb-3c30ce14b0a2"
+      (reference "R31") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/29607632-33e3-48e1-9775-3167eb70eed8"
+      (reference "R32") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/b3a16068-87e8-4a8b-90d6-c7b629d01d49"
+      (reference "R33") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/ce709037-b944-48f8-8c08-034461b9727f"
+      (reference "R34") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/00000000-0000-0000-0000-00006235185d/00000000-0000-0000-0000-000062380363"
       (reference "R35") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -2626,6 +2653,9 @@
     )
     (path "/00000000-0000-0000-0000-00006235d74f/00000000-0000-0000-0000-00006010e99b"
       (reference "R39") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/f733e016-a050-4ad2-8a14-7ee1d7da5f26"
+      (reference "R40") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/cdd226d4-1d4a-4e80-982e-4ec9eeea3d0f"
       (reference "R46") (unit 1) (value "12k") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -2705,8 +2735,23 @@
     (path "/4d354041-9d51-46f1-a4f1-c4cb6a6b9fd8/0ddefcec-bbfa-4418-b484-2f248bf882e7"
       (reference "RN6") (unit 4) (value "33R") (footprint "Resistor_THT:R_Array_SIP8")
     )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/8076fc12-03a8-4a06-95a1-baaa5e5bcd6c"
+      (reference "SW1") (unit 1) (value "SW_UP") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/b035374f-1a0b-45b9-a281-2ea2a5d3e5aa"
+      (reference "SW2") (unit 1) (value "SW_DOWN") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/a6a47508-8877-4ab7-828f-fbfd1a8194aa"
+      (reference "SW3") (unit 1) (value "SW_BACK") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/55e4a9f4-3e09-4d75-ad4c-618e19e6d599"
+      (reference "SW4") (unit 1) (value "SW_TEST") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/e1308ef9-4b3c-46aa-a949-80a51e780b05"
+      (reference "SW5") (unit 1) (value "SW_ENTER") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+    )
     (path "/00000000-0000-0000-0000-00006235185d/00000000-0000-0000-0000-00006237f70d"
-      (reference "U1") (unit 1) (value "AT24C256C") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U1") (unit 1) (value "AT24C256C") (footprint "Package_DIP:DIP-8_W7.62mm_Socket")
     )
     (path "/00000000-0000-0000-0000-00006235d74f/468a6ca1-df23-470b-b627-0cc0221c989b"
       (reference "U2") (unit 1) (value "D-SUN_MP1584_BUCK") (footprint "Stuart_BESPOKE:D-SUN_MP1584_BUCK")
