@@ -921,6 +921,8 @@
   (no_connect (at 97.282 159.004) (uuid 062c0d2c-d500-4e36-92b3-41638ad04948))
   (no_connect (at 177.292 75.184) (uuid 062c0d2c-d500-4e36-92b3-41638ad04949))
   (no_connect (at 177.292 114.554) (uuid 27002a51-2024-4f49-b31e-95d6fe6cf8f7))
+  (no_connect (at 87.122 164.338) (uuid 5284e60d-bdc5-4dc8-a5ba-e5dc8856695e))
+  (no_connect (at 92.202 164.338) (uuid 5284e60d-bdc5-4dc8-a5ba-e5dc8856695f))
   (no_connect (at 104.902 81.534) (uuid a13351af-6ea8-4446-a4b6-05abcd916057))
   (no_connect (at 104.902 99.314) (uuid a13351af-6ea8-4446-a4b6-05abcd916058))
   (no_connect (at 104.902 40.894) (uuid a13351af-6ea8-4446-a4b6-05abcd916059))
@@ -1108,6 +1110,11 @@
     (uuid eb169083-3c0f-4b4a-8acb-3f05b433a53b)
   )
 
+  (text "can they GPIO EEPROMPINS be used for triggers for switch and ext trigger?"
+    (at 15.494 93.472 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 35532ab4-e32c-4d8a-8a17-69417016f0d1)
+  )
   (text "DPI-24" (at 220.98 157.48 0)
     (effects (font (size 8.001 8.001) italic) (justify left bottom))
     (uuid 582622a2-fad4-4737-9a80-be9fffbba8ab)
@@ -1173,24 +1180,17 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "USBDP" (shape bidirectional) (at 87.122 164.338 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3f4d45db-e867-4971-bbd9-833775198e31)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 87.0426 173.0122 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "DATA10" (shape output) (at 36.83 78.74 180) (fields_autoplaced)
+  (global_label "DATA11" (shape output) (at 36.83 78.74 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 44646447-0a8e-4aec-a74e-22bf765d0f33)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 27.672 78.6606 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "DATA12" (shape output) (at 36.83 83.82 180) (fields_autoplaced)
+  (global_label "DATA9" (shape output) (at 36.83 83.82 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 465b322e-81f1-4fcf-92dd-af29c717c3a9)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 27.672 83.7406 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 28.8815 83.7406 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1278,10 +1278,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "DATA9" (shape output) (at 36.83 76.2 180) (fields_autoplaced)
+  (global_label "DATA12" (shape output) (at 36.83 76.2 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a9ae090b-d87c-4735-84b5-769a971ee2d6)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 28.8815 76.1206 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 27.672 76.1206 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1320,13 +1320,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "USBDM" (shape bidirectional) (at 92.202 164.338 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e65a547f-81b6-47ee-b130-eb32e155aaa2)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 92.1226 173.1936 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "DATA3" (shape output) (at 36.83 53.34 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e93e0cf1-64e4-4939-aff8-64d1efe07a2a)
@@ -1334,7 +1327,7 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "DATA11" (shape output) (at 36.83 81.28 180) (fields_autoplaced)
+  (global_label "DATA10" (shape output) (at 36.83 81.28 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f357ddb5-3f44-43b0-b00d-d64f5c62ba4a)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 27.672 81.2006 0)
@@ -2198,6 +2191,21 @@
     (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/c0381bf1-4b86-4566-9fad-1a604274d680"
       (reference "#PWR0159") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006235d74f/da59ff4d-eb84-4ab6-a0c6-20d1e800afb6"
+      (reference "#PWR0160") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/1d1a9038-8e2a-49c4-ae48-664a7e20b7f4"
+      (reference "#PWR0161") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/7f2af5c3-8684-4ba1-a454-5d9fb05972cc"
+      (reference "#PWR0162") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/b4d20fc8-ddb5-4660-a4ed-c05cfdce7f5f"
+      (reference "#PWR0163") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/84a85c9d-1a7d-41fd-a30b-4226cce52ad3"
+      (reference "#PWR0164") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-00006264aa53"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm")
     )
@@ -2209,6 +2217,9 @@
     )
     (path "/4d354041-9d51-46f1-a4f1-c4cb6a6b9fd8/00000000-0000-0000-0000-000062393073"
       (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/05263be5-e9a4-4427-af9e-fbcdb83808e2"
+      (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm")
     )
     (path "/00000000-0000-0000-0000-00006243dd0b/00000000-0000-0000-0000-000062448d86"
       (reference "D1") (unit 1) (value "0603") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -2528,6 +2539,15 @@
     (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/6336394d-7e46-45c7-b073-13cf1cd71142"
       (reference "J33") (unit 1) (value "GPIO TRG") (footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
     )
+    (path "/00000000-0000-0000-0000-00006235d74f/9519f722-c928-4685-9aab-2867fdd8d1de"
+      (reference "J34") (unit 1) (value "Select Voltage") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00006235d74f/b22242e4-117b-4904-89f4-7246dcb75328"
+      (reference "J35") (unit 1) (value "Select Control Feed") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00006235d74f/c075caff-ca37-4800-b0e4-31bd6f4d253c"
+      (reference "J36") (unit 1) (value "Aux In") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00012_1x02_P5.00mm_Horizontal")
+    )
     (path "/00000000-0000-0000-0000-00006235185d/00000000-0000-0000-0000-0000623a65e4"
       (reference "Q1") (unit 1) (value "MMDT5401") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
@@ -2764,6 +2784,9 @@
     )
     (path "/6ac54db5-61c5-4b14-9632-5c95a8268679/d0fed5ee-9b4e-4ebb-afb4-30f3a2772c3a"
       (reference "U4") (unit 2) (value "LAN7500-ABJZ") (footprint "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP5.9x5.9mm")
+    )
+    (path "/0ef095a5-5266-4228-9874-aea47f1a0c73/bfcea11a-f536-4ff2-a606-a279cb227a21"
+      (reference "U5") (unit 1) (value "ADS1113IDGS") (footprint "Package_SO:TSSOP-10_3x3mm_P0.5mm")
     )
   )
 )

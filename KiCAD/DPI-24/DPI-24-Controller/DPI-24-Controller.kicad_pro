@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -113,8 +119,15 @@
         "min_via_diameter": 0.39999999999999997,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -355,7 +368,95 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.35,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "12V_INS",
+        "nets": [
+          "VIN1",
+          "VIN2",
+          "VIN3"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 5.0,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "2mm Tracks",
+        "nets": [
+          "Aux_In",
+          "BUCK_In",
+          "Control_In",
+          "V5"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "FUSED_INS",
+        "nets": [
+          "Net-(F1-Pad3)",
+          "Net-(F10-Pad3)",
+          "Net-(F11-Pad3)",
+          "Net-(F12-Pad3)",
+          "Net-(F13-Pad3)",
+          "Net-(F14-Pad3)",
+          "Net-(F15-Pad3)",
+          "Net-(F16-Pad3)",
+          "Net-(F17-Pad3)",
+          "Net-(F18-Pad3)",
+          "Net-(F19-Pad3)",
+          "Net-(F2-Pad3)",
+          "Net-(F20-Pad3)",
+          "Net-(F21-Pad3)",
+          "Net-(F22-Pad3)",
+          "Net-(F23-Pad3)",
+          "Net-(F24-Pad3)",
+          "Net-(F3-Pad3)",
+          "Net-(F4-Pad3)",
+          "Net-(F5-Pad3)",
+          "Net-(F6-Pad3)",
+          "Net-(F7-Pad3)",
+          "Net-(F8-Pad3)",
+          "Net-(F9-Pad3)"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.0,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
